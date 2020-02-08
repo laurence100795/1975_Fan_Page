@@ -1,9 +1,13 @@
-/*----------------Navigation Bar----------------*/
-body {
-    background-color: blue;
+/*----------------HTML Elements----------------*/
+li {
+    list-style: none;
 }
 
-.NavBar {
+
+
+/*----------------HTML Elements----------------*/
+/*----------------Navigation Bar----------------*/
+.Nav {
     background-color: white;
     border-bottom: black;
     border-style: solid;

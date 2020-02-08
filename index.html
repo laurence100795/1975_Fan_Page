@@ -14,25 +14,27 @@
 </head>
 
 <body>
-	<div class="NavBar row">
+	<nav class="Nav navbar navbar-expand-lg row">
 		<div class="NavTitle col-lg-8">
 			<img class="NavLogo" src="./Assets/Images/1975_logo.png" alt="Italian Trulli">
-    </div>
-			<div class="NavLinks col-lg-4">
-				<div class="row NavOptions">
-					<div class="col-lg-6">
-						<h4>Home</h4>
-					</div>
-					<div class="col-lg-6">
-						<h4>The Band</h4>
-					</div>
-					<div class="col-lg-6">
-						<h4>Venues</h4>
-					</div>
-					<div class="col-lg-6">
-						<h4>Store</h4>
-					</div>
-					<div class="NavSocial row">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i></button>
+			<ul class="NavLinks col-lg-4 navbar-nav mr-auto mt-2 mt-lg-0">
+				<div class="row NavOptions collapse navbar-collapse" id="navbarTogglerDemo03">
+					<li class="col-lg-6 nav-item">
+						<h4 class="nav-link">Home</h4>
+					</li>
+					<li class="col-lg-6 nav-item">
+						<h4 class="nav-link">The Band</h4>
+					</li>
+					<li class="col-lg-6 nav-item">
+						<h4 class="nav-link">Venues</h4>
+					</li>
+					<li class="col-lg-6 nav-item">
+						<h4 class="nav-link">Store</h4>
+					</li>
+					<li class="NavSocial row nav-item">
 						<div class="col-lg-3"><a href="https://twitter.com/the1975"
 								target="_blank"><i class="fab fa-twitter LogoIcon" alt="twitter"></i></a></div>
 						<div class="col-lg-3"><a href="https://www.instagram.com/the1975/"
@@ -41,11 +43,12 @@
 								target="_blank"><i class="fab fa-youtube LogoIcon" alt="youtube"></i></a></div>
 						<div class="col-lg-3"><a href="https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW"
 								target="_blank"><i class="fab fa-spotify LogoIcon" alt="spotify"></i></a></div>
-
-					</div>
+                    </li>
 				</div>
-			</div>
-		</div>
+			</ul>
+		</nav>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>
