@@ -1,54 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
-	<script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-search-pseudo-elements></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:400,500,700,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
 	<link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css">
-	<title>The 1975 Fan Site</title>
+    <title>1975 Fan Page</title>
 </head>
 
 <body>
-	<nav class="Nav navbar navbar-expand-lg row">
-		<div class="NavTitle col-lg-8">
-			<img class="NavLogo" src="./Assets/Images/1975_logo.png" alt="Italian Trulli">
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i></button>
-			<ul class="NavLinks col-lg-4 navbar-nav mr-auto mt-2 mt-lg-0">
-				<div class="row NavOptions collapse navbar-collapse" id="navbarTogglerDemo03">
-					<li class="col-lg-6 nav-item">
-						<h4 class="nav-link">Home</h4>
+	<div class="TopNav col-12">
+		<div><img class="NavLogo" src="./Assets/Images/1975_logo.png" alt="Site Logo"></div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarToggle" aria-controls="NavbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+			<div class="collapse navbar-collapse" id="NavbarToggle">
+				<ul class="navbar-nav">
+					<li class="nav-item  mr-4">
+						<a class="nav-link" href="#">Home</a>
 					</li>
-					<li class="col-lg-6 nav-item">
-						<h4 class="nav-link">The Band</h4>
+					<li class="nav-item  mr-4">
+						<a class="nav-link" href="#">The 1975</a>
 					</li>
-					<li class="col-lg-6 nav-item">
-						<h4 class="nav-link">Venues</h4>
+					<li class="nav-item  mr-4">
+						<a class="nav-link" href="#">Events</a>
 					</li>
-					<li class="col-lg-6 nav-item">
-						<h4 class="nav-link">Store</h4>
+					<li class="nav-item  mr-4">
+						<a class="nav-link" href="#">Store</a>
 					</li>
-					<li class="NavSocial row nav-item">
-						<div class="col-lg-3"><a href="https://twitter.com/the1975"
-								target="_blank"><i class="fab fa-twitter LogoIcon" alt="twitter"></i></a></div>
-						<div class="col-lg-3"><a href="https://www.instagram.com/the1975/"
-								target="_blank"><i class="fab fa-instagram LogoIcon" alt="instagram"></i></a></div>
-						<div class="col-lg-3"><a href="https://www.youtube.com/channel/UC_LfW1R3B0of9qOw1uI-QNQ"
-								target="_blank"><i class="fab fa-youtube LogoIcon" alt="youtube"></i></a></div>
-						<div class="col-lg-3"><a href="https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW"
-								target="_blank"><i class="fab fa-spotify LogoIcon" alt="spotify"></i></a></div>
-                    </li>
-				</div>
-			</ul>
+				</ul>
+			</div>
 		</nav>
+		<div class="FooterContent">
+			<div class=" HomeContainer"></div>
+
+		</div>
+		<footer class="container-fluid FooterRow">
+			<div class="row">
+				<div class="col-4 FooterSection">
+					<p class="DesignerStamp">Designed and Tested by <a href="https://github.com/laurence100795" target="_blank">L.A.D
+							Design <i class="fab fa-github"></i></a></p>
+				</div>
+				<hr class="VerticalDivider">
+				<div class="col-4 FooterSection">
+                    <p class="DesignerStamp"><a href="">Report Issues</a></p>
+                </div>
+				<hr class="VerticalDivider">
+                <div class="FooterSection3">
+				<a href="" target="_blank"><i class="SocialLink fa-lg fab fa-twitter"></i></a>
+                <a href="" target="_blank"><i class="SocialLink fa-lg fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="SocialLink fa-lg fab fa-youtube"></i></a>
+                <a href="" target="_blank"><i class="SocialLink fa-lg fab fa-spotify"></i></a>
+                </div>
+			</div>
+		</footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
 </html>

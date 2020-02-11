@@ -1,49 +1,112 @@
-/*----------------HTML Elements----------------*/
-li {
-    list-style: none;
+/*----NavBar----*/
+
+.TopNav { /*Navbar logo box styling*/
+    background-color: #fafafa;
 }
 
-
-
-/*----------------HTML Elements----------------*/
-/*----------------Navigation Bar----------------*/
-.Nav {
-    background-color: white;
-    border-bottom: black;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.NavLogo{
-    width: auto;
-    height: 140px;
-    padding: 5px 50px; 
+.NavLogo { /*Navbar Logo Styling*/
+    max-width: 620px;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
-.NavOptions{
+.navbar { /*Navbar box styling*/
+    background-color: #fafafa;
+    border-bottom: black;
+    border-bottom-width: 2px; 
+    border-bottom-style: solid;
+    padding: 4px 10px;
+}
+
+.navbar-brand { /*Remove margin making it off centre*/
+    margin: 0;
+}
+
+.navbar-light .navbar-toggler { /*remove toggler border*/
+    border: none;
+}
+.navbar-nav { /*Centring Nav options*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link { /*Navbar words styling*/
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
     letter-spacing: 3px;
 }
 
-.LogoIcon {
+.nav-item { /*Navbar toggled words styling*/
     margin-left: auto;
     margin-right: auto;
-    color: black;
 }
 
-.NavSocial {
-    margin-left: auto;
-    margin-right: auto;
+/*----Footer----*/
+
+html { /*Required for footer postioning*/
+    height: 100%;
+}
+
+body { /*Creating column flex to stick footer to bottom*/
+    display: flex;
+    flex-direction: column;
     
 }
 
-h4 {
-    margin-top: 5px;
-    margin-bottom: 20px;
+.FooterContent { /*Pushes footer to the bottom of the page*/
+    flex: 1 0 auto;
+    background-color: #fafafa;
 }
-/*----------------Navigation Bar----------------*/
+
+footer { /*Pushes footer to the bottom of the page*/
+    flex-shrink: 0;
+}
+
+.FooterRow { /*Footer Box sytly and sizing*/
+    height: 60px;
+    width: 100%;
+    background-color: #fafafa;
+    border-top: black;
+    border-top-width: 2px; 
+    border-top-style: solid;
+}
+
+.FooterSection { /*Footer sections style and sizing*/
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+.FooterSection3 {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.VerticalDivider { /*Vertical Divider class for splits in footer*/
+    width: 1px;
+    height: 25px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.DesignerStamp {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.SocialLink {
+    padding-left: 20px;
+}
+
+/*----Home Body----*/
+
+.HomeContainer {
+    height: 100%;
+}

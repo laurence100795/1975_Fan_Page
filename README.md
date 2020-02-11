@@ -62,3 +62,18 @@
 <p>This page will not be with the other links it will be located in the footer of every page.</p>
 <p>It will have a simple opening sentence with two form entries one for the ending email address and one for the report.</p>
 <p>The reason I want to put email as well even though it's not really needed I want to setup a thank you message as an auto reply off Email.js.</p>
+
+<h2>Production</h2>
+
+<h3>Navigation Bar</h3>
+
+<p>When I starting designing the navigation bar I used the wireframe as an a template. I had many attempts at getting this working and eventually changed it completely.</p>
+
+<h4>Attempt 1</h4>
+<p>I used bootstrap and tried my design. I managed to shape the nav bar as I wanted in my wirefrmae but I couldn't get the toggler to work correctly so after a few hours a started again but this time without bootstrap.</p>
+<h4>Attempt 2</h4>
+<p>I tried doing the Navigation bar without any bootstrap and learning howe to use the flexbox tools on my own. I have now gained a decent idea of how to use flexbox works but I struggled to get the animations to work the way I wanted and where they where meant to appear.</p>
+<p>I used JQuery for the animations but they didn't work either which was a large problem. I got it to eventually open and close but without any sliding effect and there was a prolbem with the stlying it wouldn't take no matter how far I broke down the classes in CSS. After testing with it for sometime I decided to go back to bootstrap with a redesign</p>
+<h4>Attempt 3</h4>
+<p>I changed the design from the wireframe making it the logo on top and the links below. this worked without any issues and I managed to break down the design of this fairly easily shaping it to how I imagined. I centred the text got the toggler to kick in at the large pixel range and the animation was smooth and pushed the page down without any issues.</p>
+<p>When it was toggled I </p>
