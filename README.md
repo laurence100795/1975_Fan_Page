@@ -58,6 +58,7 @@
 <p>This page solely relies on if I get approved for the API key from SongKick or if I find another one that can full the same information.</p>
 <p>The Page will consist of a short and to the point opening paragraph and below will be events that will consist of basic information regarding dates, times, locations etc.</p>
 <p>In the wire frame it consists of only three forms but depending on how I am able to do this it is a subject of change and could increase.</p>
+<p><b>I didn't get Approved for the SongKick API but I managed to get one off Ticket Master so I will be using that API Key for the webiste instead.</b></p>
 <h3>Issue Page</h3>
 <p>This page will not be with the other links it will be located in the footer of every page.</p>
 <p>It will have a simple opening sentence with two form entries one for the ending email address and one for the report.</p>
@@ -77,3 +78,15 @@
 <h4>Attempt 3</h4>
 <p>I changed the design from the wireframe making it the logo on top and the links below. this worked without any issues and I managed to break down the design of this fairly easily shaping it to how I imagined. I centred the text got the toggler to kick in at the large pixel range and the animation was smooth and pushed the page down without any issues.</p>
 <p>When it was toggled I </p>
+
+
+<h3>Resource links</h3>
+
+https://download.hipwallpaper.com/desktop/1920/1080/28/34/T3Fnp6.jpg
+http://getwallpapers.com/wallpaper/full/3/8/e/1126392-the-1975-wallpapers-1920x1080-for-lockscreen.jpg
+https://cdn.hipwallpaper.com/i/90/95/vCxJo7.jpg
+https://wallpapercave.com/w/wp1860588
+https://www.reddit.com/r/the1975/comments/7rhs7r/made_my_own_the_1975_album_cover_what_do_you_think/
+https://www.harpersbazaar.com/uk/culture/staying-in/news/a7901/this-is-our-jam-the-1975/
+readingfestival.com/wp-content/uploads/2019/01/The-1975.png 
+
