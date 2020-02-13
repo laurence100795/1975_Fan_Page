@@ -88,5 +88,7 @@ https://cdn.hipwallpaper.com/i/90/95/vCxJo7.jpg
 https://wallpapercave.com/w/wp1860588
 https://www.reddit.com/r/the1975/comments/7rhs7r/made_my_own_the_1975_album_cover_what_do_you_think/
 https://www.harpersbazaar.com/uk/culture/staying-in/news/a7901/this-is-our-jam-the-1975/
-readingfestival.com/wp-content/uploads/2019/01/The-1975.png 
+readingfestival.com/wp-content/uploads/2019/01/The-1975.png
+https://brandpalettes.com/instagram-color-codes/
+
 

@@ -1,3 +1,11 @@
+/*----HTML Tags---*/
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
 /*----Stylers---*/
 .col-4{ /*Remove Bootstrap Padding*/
     padding:0;
@@ -126,6 +134,23 @@ footer { /*Pushes footer to the bottom of the page*/
     margin: 0;
 }
 
+.DesignerLink { /*Designer Link Styling*/
+    color: grey;
+}
+
+.ReportLink { /*Report link styling*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    color: black;
+}
+
+.ReportLinkStyle { /*Required for report link effect*/
+    transition: color 0.5s ease;
+}
+
 .SocialLink { /*Social footer links styling*/
     margin-left: 20px;
     padding: 1px 0;
@@ -136,7 +161,20 @@ footer { /*Pushes footer to the bottom of the page*/
 .fa-lg {    /*Footer icon Sizing*/
     font-size: 1.5em;
 }
-/*----Footer Social Styles----*/
+/*----Footer hover styles----*/
+
+.DesignerLink:hover {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.ReportLinkStyle:hover { /*Report Footer hover style*/
+    font-weight: 900;
+    color: red;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+}
 
 .fa-twitter:hover { /*Twiiter hover effect*/
     transition-timing-function: ease-in-out;
@@ -145,7 +183,7 @@ footer { /*Pushes footer to the bottom of the page*/
 
 .fa-instagram:hover { /*instagram hover effect*/
     transition-timing-function: ease-in-out;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #E1306C;
 }
 
 .fa-youtube:hover { /*Youtube hover effect*/
