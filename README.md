@@ -52,8 +52,8 @@
 <p>I want to have an effect that slowly fades the image to black with text in the centre either saying the members name or for the band "The 1975"</p>
 <h3>About Page</h3>
 <p>for each about page I want to have 2 API's in play one a google map for there home town and Wikipedia for the information.</p>
-<p>I have newer added animations to requested data but so I will try and restyle the text that is pulled through.</p>
-<p>For the band page I will also have a API to Wikipedia pulling the information for the information and I might do a google map on locations they have played at.</p>
+<p>The original plan was to use the wikipedia API to pull information on each member of the 1975 but unfortunately only the band and the lead singer have an wikipedia page so I changed it to only the one page with the information on the 1975</p>
+<p>I will use the wikipedia API to pull the information about the band onto the page and I will also add a google maps API to point out where they formed</p> 
 <h3>Tour Page</h3>
 <p>This page solely relies on if I get approved for the API key from SongKick or if I find another one that can full the same information.</p>
 <p>The Page will consist of a short and to the point opening paragraph and below will be events that will consist of basic information regarding dates, times, locations etc.</p>
@@ -81,7 +81,7 @@
 
 
 <h3>Resource links</h3>
-
+https://upload.wikimedia.org/wikipedia/commons/8/83/The_1975_Logo.svg
 https://download.hipwallpaper.com/desktop/1920/1080/28/34/T3Fnp6.jpg
 http://getwallpapers.com/wallpaper/full/3/8/e/1126392-the-1975-wallpapers-1920x1080-for-lockscreen.jpg
 https://cdn.hipwallpaper.com/i/90/95/vCxJo7.jpg
@@ -89,6 +89,7 @@ https://wallpapercave.com/w/wp1860588
 https://www.reddit.com/r/the1975/comments/7rhs7r/made_my_own_the_1975_album_cover_what_do_you_think/
 https://www.harpersbazaar.com/uk/culture/staying-in/news/a7901/this-is-our-jam-the-1975/
 readingfestival.com/wp-content/uploads/2019/01/The-1975.png
-https://brandpalettes.com/instagram-color-codes/
+https://upload.wikimedia.org/wikipedia/commons/d/d0/The_1975_%2814712180536%29.jpg
+https://www.google.com/search?q=Matthew+Healy&tbm=isch&ved=2ahUKEwiZ0aiRw8_nAhWOBGMBHTMGADYQ2-cCegQIABAA&oq=Matthew+Healy&gs_l=img.3..0i131i67j0i67l3j0j0i67j0l2j0i67j0.64143.64143..64921...0.0..0.59.59.1......0....1..gws-wiz-img.1QdAMpTbs5w&ei=osZFXpn4Eo6JjLsPs4yAsAM&bih=937&biw=1920&rlz=1C1CHBF_en-GBGB758GB758#imgrc=PtuJbgApKJSeCM
 
 
