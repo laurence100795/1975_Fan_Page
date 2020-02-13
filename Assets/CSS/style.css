@@ -1,19 +1,28 @@
 /*----Stylers---*/
-.col-4{
+.col-4{ /*Remove Bootstrap Padding*/
     padding:0;
 }
 
-.col-12{
+.col-12{ /*Remove Bootstrap Padding*/
     padding: 0;
 }
 
-.container-fluid {
+.container-fluid { /*Remove Bootstrap Padding*/
     padding:0;
 }
 
-.row {
+.row { /*Remove Bootstrap Margin*/
     margin: 0;
-} 
+}
+
+button,
+button:focus,
+button:active{
+	border:1px solid black;
+	background:none;
+	outline:none;
+	padding:0;
+}
 /*----NavBar----*/
 
 .TopNav { /*Navbar logo box styling*/
@@ -129,35 +138,74 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 /*----Footer Social Styles----*/
 
-.fa-twitter:hover {
+.fa-twitter:hover { /*Twiiter hover effect*/
     transition-timing-function: ease-in-out;
     color: #00acee;
 }
 
-.fa-instagram:hover {
+.fa-instagram:hover { /*instagram hover effect*/
     transition-timing-function: ease-in-out;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
-.fa-youtube:hover {
+.fa-youtube:hover { /*Youtube hover effect*/
     transition-timing-function: ease-in-out;
     color: #c4302b;
 }
 
-.fa-spotify:hover {
+.fa-spotify:hover { /*Spotify hover effect*/
     transition-timing-function: ease-in-out;
     color: #1ed761;
 }
 /*----Home Body----*/
-
-.HomeContainer {
-    height: 100%;
-}
-
-.HomePageSlider {
+.HomePageSlider { /*Slider Image fits container without warping*/
     width: inherit;
 }
 
-.HomePicButton {
+.HomePicButton { /*Home Image Buttons fits container without warping*/
     width: inherit;
+}
+
+/*----Report Body----*/
+
+.ReportTitle { /*Reporting Page title Styling*/
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+
+.ReportPara { /*Reporting Page subtext Styling*/
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.FormStyle { /*Reporting Page form Styling*/
+    padding-top: 40px;
+}
+
+.ButtonStyle,
+.ButtonStyle:focus,
+.ButtonStyle:active { /*Form button styling and positioning*/
+    margin-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #E0E0E0;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color 0.5s ease;
+}
+
+.ButtonStyle:hover,
+.ButtonStyle:focus,
+.ButtonStyle:active { /*Form button hover affect*/
+    transition-timing-function: ease-in-out;
+    color: #fafafa;
+    background-color: black;
 }
