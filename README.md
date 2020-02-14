@@ -91,5 +91,8 @@ https://www.harpersbazaar.com/uk/culture/staying-in/news/a7901/this-is-our-jam-t
 readingfestival.com/wp-content/uploads/2019/01/The-1975.png
 https://upload.wikimedia.org/wikipedia/commons/d/d0/The_1975_%2814712180536%29.jpg
 https://www.google.com/search?q=Matthew+Healy&tbm=isch&ved=2ahUKEwiZ0aiRw8_nAhWOBGMBHTMGADYQ2-cCegQIABAA&oq=Matthew+Healy&gs_l=img.3..0i131i67j0i67l3j0j0i67j0l2j0i67j0.64143.64143..64921...0.0..0.59.59.1......0....1..gws-wiz-img.1QdAMpTbs5w&ei=osZFXpn4Eo6JjLsPs4yAsAM&bih=937&biw=1920&rlz=1C1CHBF_en-GBGB758GB758#imgrc=PtuJbgApKJSeCM
+https://niceaf.tumblr.com/post/187193549761/people-the-1975
+http://getwallpapers.com/wallpaper/full/7/b/c/1126481-the-1975-wallpapers-2560x1600-for-iphone.jpg
+https://www.google.com/search?q=1975+wake+up+image&tbm=isch&ved=2ahUKEwit_v6bg9HnAhVbgM4BHbPiAJkQ2-cCegQIABAA&oq=1975+wake+up+image&gs_l=img.3...82424.85687..85845...2.0..0.61.401.8......0....1..gws-wiz-img.......0i30j0i24.3JwXZjpqZZI&ei=DJBGXq3IEtuAur4Ps8WDyAk&bih=937&biw=1920&rlz=1C1CHBF_en-GBGB860GB860&hl=en#imgrc=j7B97o_O246nHM
 
 
