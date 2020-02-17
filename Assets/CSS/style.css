@@ -100,7 +100,6 @@ body { /*Creating column flex to stick footer to bottom*/
 
 .Content { /*Pushes footer to the bottom of the page*/
     flex: 1 0 auto;
-    background-color: black;
 }
 
 footer { /*Pushes footer to the bottom of the page*/
@@ -207,6 +206,10 @@ footer { /*Pushes footer to the bottom of the page*/
 /*----Home Body----*/
 .HomePageSlider { /*Slider Image fits container without warping*/
     width: inherit;
+}
+
+.HomeContent {
+    background-color: black;
 }
 
 .HomePicButton { /*Home Image Buttons fits container without warping*/

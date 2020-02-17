@@ -8,6 +8,12 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
 	<link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css">
 	<title>1975 Fan Page</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+           emailjs.init('user_TTxmHK6An82JPzdSJc5sj');
+        })();
+	</script>
 </head>
 
 <body>
@@ -48,9 +54,9 @@
 			<div class="row">
 				<div class="col-2"></div>
 				<div class="FormStyle col-8">
-					<form action="">
+					<form onsubmit="return sendMail(this);">
 						<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required/>
-						<textarea rows="7" name="projectsummary" class="form-control" id="projectsummary" placeholder="Issue You're Reporting" required></textarea>
+						<textarea rows="7" name="errorsummary" class="form-control" id="errorsummary" placeholder="Issue You're Reporting" required></textarea>
 						<button type="submit" class="ButtonStyle">Report Issue</button>
 					</form>
 				</div>
@@ -78,6 +84,8 @@
 			</div>
 		</footer>
 </body>
+<script src="./Assets/JS/SendMail.js">
+	</script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 </script>
