@@ -174,6 +174,40 @@ footer { /*Pushes footer to the bottom of the page*/
 .fa-lg {    /*Footer icon Sizing*/
     font-size: 1.5em;
 }
+
+/*----Footer media queries----*/
+
+@media(max-width:767px) {
+    .fa-lg{
+        font-size: 1em; 
+        }
+    .FooterRow { /*Footer Box sytly and sizing*/
+    height: 110px;
+    }
+    .SocialLink {
+        margin-left: 10px;
+        padding-top: 30px;
+    }
+    .VerticalDivider {
+        height: 75px;
+    }
+    .ReportLink {
+        padding-top: 40px;
+    }
+    .fa-twitter {
+        color: #00acee;
+    }
+    .fa-instagram {
+        color: #E1306C;
+    }
+    .fa-youtube {
+         color:#c4302b;
+    }
+    .fa-spotify {
+        color: #1ed761;
+    }
+}
+
 /*----Footer hover styles----*/
 
 .DesignerLink:hover {
@@ -209,14 +243,6 @@ footer { /*Pushes footer to the bottom of the page*/
     color: #1ed761;
 }
 
-
-
-
-
-
-
-
-
 /*----Home Body----*/
 
 .HomeCalloutContainer{
@@ -240,12 +266,14 @@ footer { /*Pushes footer to the bottom of the page*/
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color:white;
+    letter-spacing: 2px;
 }
 
 .HomeCallout {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color:white;
+    font-size:20px;
 }
 
 .BottomHomeContainer1 {
@@ -269,11 +297,6 @@ footer { /*Pushes footer to the bottom of the page*/
     max-width: 400px;
     width: inherit;
     padding: 15px;
-    /*
-background: url(bg_apple_little.gif) no-repeat center center;
-    height: 200px; ---- Try this
-    width: 200px;
-*/
 }
 
 .HomeLinkTitle {
@@ -293,12 +316,24 @@ background: url(bg_apple_little.gif) no-repeat center center;
 
 .HomeLinkArrow {
     position: absolute;
-    top: 65%;
+    top: 25%;
     left: 10%;
 }
 
+/*----Home Body media Queries----*/
 
-
+@media(max-width:767px) {
+    .BottomHomeContainer1{
+        margin-bottom:0;
+    }
+    .HomeLinkArrow {
+        display:;
+    }
+    .HomeLinkText {
+        width: 100%;
+        text-align: center;
+    }
+}
 
 /*----Report Body----*/
 
