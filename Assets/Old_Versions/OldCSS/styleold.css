@@ -31,10 +31,6 @@ a {
     margin: 0;
 }
 
-.NoPad {
-    padding: 0;
-}
-
 button,
 button:focus,
 button:active{
@@ -72,9 +68,7 @@ button:active{
 
 .navbar-light .navbar-toggler { /*remove toggler border*/
     border: none;
-    padding: 10px;
 }
-
 .navbar-nav { /*Centring Nav options*/
     margin-left: auto;
     margin-right: auto;
@@ -209,96 +203,47 @@ footer { /*Pushes footer to the bottom of the page*/
     color: #1ed761;
 }
 
-
-
-
-
-
-
-
-
 /*----Home Body----*/
-
-.HomeCalloutContainer{
-    margin-top: 60px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.HomeLinks {
-    margin-top: 70px;
-}
-
-.HomeBackground {
-    background-image: url(../Images/HomeBackground_1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-}
-
-.HomeTitle {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color:white;
-}
-
-.HomeCallout {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color:white;
-}
-
-.BottomHomeContainer1 {
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
-}
-
-.BottomHomeContainer2 {
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
-    padding: 20px;
-    color: white;
-}
-
-.HomeImageContainer {
-    text-align: center;
-    display: block;
-}
-
-.HomeLinkImage {
-    max-width: 400px;
+.HomePageSlider { /*Slider Image fits container without warping*/
     width: inherit;
-    padding: 15px;
-    /*
-background: url(bg_apple_little.gif) no-repeat center center;
-    height: 200px; ---- Try this
-    width: 200px;
-*/
 }
 
-.HomeLinkTitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    text-align: center;
+.HomeContent {
+    background-color: black;
 }
 
-.HomeLinkText {
-    float: right;
-    width: 75%;
-    padding: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+.HomePicButton { /*Home Image Buttons fits container without warping*/
+    width: inherit;
 }
 
-.HomeLinkArrow {
-    position: absolute;
-    top: 65%;
-    left: 10%;
+.HomeCallout1 {
+    background-image: url(../Images/HomeBackText1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
 }
 
+.HomeCallout2 {
+    background-image: url(../Images/HomeBackText2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+}
 
+.HomeCallout3 {
+    background-image: url(../Images/HomeBackText3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.1;
+}
 
+.HomeDivider {
+    width: 100%;
+    height: 10px;
+    border: 0;
+    background-color: #202020;
+    margin: 0;
+}
 
 /*----Report Body----*/
 

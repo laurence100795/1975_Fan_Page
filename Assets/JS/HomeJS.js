@@ -1,12 +1,16 @@
 $(document).ready(function () {
     $(function () {
         $(window).resize(function () {
-            if($("#HomeWidth").width() <= 1182) {
-                $('#AddContainer')
+            if ($("#").width() <= 768) {
+                $('#')
+                    .removeClass('container-fluid');
+                $('#')
                     .addClass('container');
             } else {
-                $('#AddContainer')
+                $('#')
                     .removeClass('container')
+                $('#')
+                    .addClass('container-fluid');
             }
         });
     });
