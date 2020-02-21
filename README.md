@@ -94,5 +94,8 @@ https://www.google.com/search?q=Matthew+Healy&tbm=isch&ved=2ahUKEwiZ0aiRw8_nAhWO
 https://niceaf.tumblr.com/post/187193549761/people-the-1975
 http://getwallpapers.com/wallpaper/full/7/b/c/1126481-the-1975-wallpapers-2560x1600-for-iphone.jpg
 https://www.google.com/search?q=1975+wake+up+image&tbm=isch&ved=2ahUKEwit_v6bg9HnAhVbgM4BHbPiAJkQ2-cCegQIABAA&oq=1975+wake+up+image&gs_l=img.3...82424.85687..85845...2.0..0.61.401.8......0....1..gws-wiz-img.......0i30j0i24.3JwXZjpqZZI&ei=DJBGXq3IEtuAur4Ps8WDyAk&bih=937&biw=1920&rlz=1C1CHBF_en-GBGB860GB860&hl=en#imgrc=j7B97o_O246nHM
-
-
+https://genius.com/album_cover_arts/14496
+https://www.stereogum.com/1861215/album-of-the-week-the-1975-i-like-it-when-you-sleep-for-you-are-so-beautiful-yet-so-unaware-of-it/franchises/album-of-the-week/
+https://en.wikipedia.org/wiki/A_Brief_Inquiry_into_Online_Relationships
+https://genius.com/album_cover_arts/371239
+<p>How to center text horizontally and vertically with flexbox. -- </p>https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox

@@ -43,6 +43,12 @@ button:active{
 	outline:none;
 	padding:0;
 }
+
+.fullWidthDivider {
+    width: 100%;
+    height: 2px;
+    color: rgba(0, 0, 0, 0.6);
+}
 /*----NavBar----*/
 
 .TopNav { /*Navbar logo box styling*/
@@ -113,7 +119,7 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 .FooterRow { /*Footer Box sytly and sizing*/
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-color: #fafafa;
     border-top: black;
@@ -127,13 +133,12 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 .FooterSection3 { /*Social Links section styling*/
-    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .VerticalDivider { /*Vertical Divider class for splits in footer*/
     width: 1px;
-    height: 25px;
+    height: 48px;
     border: 0;
     background-color: rgba(0, 0, 0, 0.4);
     margin-left: 0!important;
@@ -143,8 +148,15 @@ footer { /*Pushes footer to the bottom of the page*/
 .DesignerStamp { /*Left footer styling*/
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding-top: 20px;
     margin: 0;
+}
+
+.DesignerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
 }
 
 .DesignerLink { /*Designer Link Styling*/
@@ -155,9 +167,13 @@ footer { /*Pushes footer to the bottom of the page*/
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
-    padding-top: 20px;
     margin: 0;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
 }
 
 .ReportLinkStyle { /*Required for report link effect*/
@@ -175,24 +191,33 @@ footer { /*Pushes footer to the bottom of the page*/
     font-size: 1.5em;
 }
 
+.LinkCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
 /*----Footer media queries----*/
 
 @media(max-width:767px) {
     .fa-lg{
         font-size: 1em; 
         }
-    .FooterRow { /*Footer Box sytly and sizing*/
+    .FooterRow {
     height: 110px;
     }
     .SocialLink {
-        margin-left: 10px;
-        padding-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .VerticalDivider {
         height: 75px;
     }
-    .ReportLink {
-        padding-top: 40px;
+    .ReportLinkStyle {
+    color: #8b0000;
     }
     .fa-twitter {
         color: #00acee;
@@ -208,6 +233,18 @@ footer { /*Pushes footer to the bottom of the page*/
     }
 }
 
+@media(max-width:360px) {
+        .fa-lg{
+        font-size: 0.8em; 
+        }
+        .SocialLink {
+            margin-right: 0;
+            margin-left: 7px;
+        }
+        .DesignerStamp {
+            padding-top: 14px;
+        }
+}
 /*----Footer hover styles----*/
 
 .DesignerLink:hover {
@@ -218,7 +255,7 @@ footer { /*Pushes footer to the bottom of the page*/
 
 .ReportLinkStyle:hover { /*Report Footer hover style*/
     font-weight: 900;
-    color: red;
+    color: #8b0000;
     text-decoration: none;
     transition-timing-function: ease-in-out;
 }
@@ -327,7 +364,7 @@ footer { /*Pushes footer to the bottom of the page*/
         margin-bottom:0;
     }
     .HomeLinkArrow {
-        display:;
+        display:none;
     }
     .HomeLinkText {
         width: 100%;
@@ -377,4 +414,87 @@ footer { /*Pushes footer to the bottom of the page*/
     transition-timing-function: ease-in-out;
     color: #fafafa;
     background-color: black;
+}
+
+/*----Merch Body----*/
+
+
+.AlbumCallout {
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.AlbumCallout h2 {
+    font-weight: 400;
+    font-size: 36;
+    letter-spacing: 2px;
+}
+
+.AlbumCallout p {
+    font-weight: 400;
+}
+
+.AlbumTopper h2 {
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+
+.AlbumTitle h2{
+    font-family: "Roboto",sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    font-weight: 300;
+}
+
+.AlbumContainer {
+    padding: 15px 0;
+}
+
+.AlbumCoverPhoto {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.AlbumCoverPhoto {
+    width: inherit;
+    max-width: 300px;
+}
+
+.AlbumPurchase {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+}
+
+.AlbumPurchase div {
+    display: block;
+}
+
+.AlbumPurchase div a {
+    text-decoration: none;
+}
+
+.AlbumPurchase div a h4 {
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+/*----Merch Media Queries----*/
+
+@media(max-width:767px) {
+    .AlbumTopper {
+        display: none;
+    }
 }
