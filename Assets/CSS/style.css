@@ -35,6 +35,10 @@ a {
     padding: 0;
 }
 
+.NoMarg{
+    margin: 0;
+}
+
 button,
 button:focus,
 button:active{
@@ -119,7 +123,7 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 .FooterRow { /*Footer Box sytly and sizing*/
-    height: 80px;
+    height: 85px;
     width: 100%;
     background-color: #fafafa;
     border-top: black;
@@ -149,6 +153,11 @@ footer { /*Pushes footer to the bottom of the page*/
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
 }
 
 .DesignerCenter {
@@ -291,12 +300,17 @@ footer { /*Pushes footer to the bottom of the page*/
     margin-top: 70px;
 }
 
-.HomeBackground {
-    background-image: url(../Images/HomeBackground_1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
+.SlideImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 .HomeTitle {

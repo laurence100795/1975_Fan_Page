@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,73 +11,68 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</script>
+	<script src="./Assets/JS/HomeJS.js" defer></script>
 	<title>1975 Fan Page</title>
 </head>
 
-<body id="HomeWidth" class="HomeBackground">
-	<div class="TopNav col-12">
-		<div><img class="NavLogo" src="./Assets/Images/1975_logo.png" alt="Site Logo"></div>
-		</div>
-		<nav class="navbar navbar-expand-xl navbar-light">
-			<a class="navbar-brand" href="#"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarToggle" aria-controls="NavbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+	<div class="BackgroundSlideshow">
+		<img src="./Assets/Images/HomeBackground_1.jpg" alt="HomeBackground_1" class="SlideImage">
+		<img src="./Assets/Images/HomeBackground_2.jpg" alt="HomeBackground_2" class="SlideImage">
+		<img src="./Assets/Images/HomeBackground_3.jpg" alt="HomeBackground_3" class="SlideImage">
+		<img src="./Assets/Images/HomeBackground_4.jpg" alt="HomeBackground_4" class="SlideImage">
+		<div class="TopNav col-12">
+			<div><img class="NavLogo" src="./Assets/Images/1975_logo.png" alt="Site Logo"></div>
+			</div>
+			<nav class="navbar navbar-expand-xl navbar-light">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarToggle" aria-controls="NavbarToggle" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon fa-lg"></span>
   </button>
-			<div class="collapse navbar-collapse" id="NavbarToggle">
-				<ul class="navbar-nav">
-					<li class="nav-item  mr-4">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item  mr-4">
-						<a class="nav-link" href="Band.html">The 1975</a>
-					</li>
-					<li class="nav-item  mr-4">
-						<a class="nav-link" href="#">Events</a>
-					</li>
-					<li class="nav-item  mr-4">
-						<a class="nav-link" href="Merch.html">Store</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div class="Content container-fluid">
-			<div class="row">
-				<div class="container col-md-8 col-10 HomeCalloutContainer">
-					<h2 class="HomeTitle">Welcome to the Unofficial 1975 Fan Page</h2>
-					<div class="HomeCallout">
-						<p>If you've decided to visit this page you must be quite the fan to want to google them!
-						</p>
-						<p>I created this website so people can learn more about the band, see where they're next
-							playing
-							and buy some merchandise</p>
-                            <p><b>If interested click the images below</b></p>
-					</div>
+				<div class="collapse navbar-collapse" id="NavbarToggle">
+					<ul class="navbar-nav">
+						<li class="nav-item  mr-4">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item  mr-4">
+							<a class="nav-link" href="Band.html">The 1975</a>
+						</li>
+						<li class="nav-item  mr-4">
+							<a class="nav-link" href="#">Events</a>
+						</li>
+						<li class="nav-item  mr-4">
+							<a class="nav-link" href="Merch.html">Store</a>
+						</li>
+					</ul>
 				</div>
-			</div>
-			<div class="HomeLinks container">
-				<div class="container">
-					<div class="row ">
-						<div class="BottomHomeContainer1 HomeImageContainer col-12 col-md-5">
-							<img onclick="location='Band.html'" class="HomeLinkImage" src="./Assets/Images/BandHome.jpg" alt="Band-Home-Image"></div>
-							<div class="BottomHomeContainer2  HomeLinkText col-12 col-md-7">
-								<h3 class="HomeLinkTitle">Learn About the band!</h3>
-								<p class="HomeLinkText">Interested in the bands roots, where they formed and they
-									achievements on there rise
-									to success. We have put together a little bio for you too go though if you're
-									interested.</p>
-								<i class="HomeLinkArrow fas fa-arrow-left fa-lg"></i>
-							</div>
+			</nav>
+			<div class="Content container-fluid">
+				<div class="row">
+					<div class="container col-md-8 col-10 HomeCalloutContainer">
+						<h2 class="HomeTitle">Welcome to the Unofficial 1975 Fan Page</h2>
+						<div class="HomeCallout">
+							<p>If you've decided to visit this page you must be quite the fan to want to google them!
+							</p>
+							<p>I created this website so people can learn more about the band, see where they're next
+								playing
+								and buy some merchandise</p>
+							<p><b>If interested click the images below</b></p>
 						</div>
 					</div>
+				</div>
+				<div class="HomeLinks container">
 					<div class="container">
-						<div class="row">
+						<div class="row ">
 							<div class="BottomHomeContainer1 HomeImageContainer col-12 col-md-5">
-								<img onclick="location='Venue.html'" class="HomeLinkImage" src="./Assets/Images/VenueHome.png" alt="Venue-Home-Image"></div>
-								<div class="BottomHomeContainer2 HomeLinkText col-12 col-md-7">
-									<h3 class="HomeLinkTitle">Want to See the band Live!</h3>
-									<p class="HomeLinkText">Have you ever seen The 1975 live? You really need to! It is
-										one
-										incredible expereince, Matty Healy really knows how to put on a show!</p>
+								<img onclick="location='Band.html'" class="HomeLinkImage" src="./Assets/Images/BandHome.jpg" alt="Band-Home-Image"></div>
+								<div class="BottomHomeContainer2  HomeLinkText col-12 col-md-7">
+									<h3 class="HomeLinkTitle">Learn About the band!</h3>
+									<p class="HomeLinkText">Interested in the bands roots, where they formed and they
+										achievements on there rise
+										to success. We have put together a little bio for you too go though if you're
+										interested.</p>
 									<i class="HomeLinkArrow fas fa-arrow-left fa-lg"></i>
 								</div>
 							</div>
@@ -84,47 +80,66 @@
 						<div class="container">
 							<div class="row">
 								<div class="BottomHomeContainer1 HomeImageContainer col-12 col-md-5">
-									<img onclick="location='Merch.html'" class="HomeLinkImage" src="./Assets/Images/MerchHome.jpg" alt="Merch-Home-Image"></div>
+									<img onclick="location='Venue.html'" class="HomeLinkImage" src="./Assets/Images/VenueHome.png" alt="Venue-Home-Image"></div>
 									<div class="BottomHomeContainer2 HomeLinkText col-12 col-md-7">
-										<h3 class="HomeLinkTitle">Fancy picking up some Offical Merch!</h3>
-										<p class="HomeLinkText">You're not a true fan until you can show it off to the
-											world! Click on image on the left to see the selection.</p>
+										<h3 class="HomeLinkTitle">Want to See the band Live!</h3>
+										<p class="HomeLinkText">Have you ever seen The 1975 live? You really need to! It
+											is
+											one
+											incredible expereince, Matty Healy really knows how to put on a show!</p>
 										<i class="HomeLinkArrow fas fa-arrow-left fa-lg"></i>
 									</div>
 								</div>
 							</div>
+							<div class="container">
+								<div class="row">
+									<div class="BottomHomeContainer1 HomeImageContainer col-12 col-md-5">
+										<img onclick="location='Merch.html'" class="HomeLinkImage" src="./Assets/Images/MerchHome.jpg" alt="Merch-Home-Image"></div>
+										<div class="BottomHomeContainer2 HomeLinkText col-12 col-md-7">
+											<h3 class="HomeLinkTitle">Fancy picking up some Offical Merch!</h3>
+											<p class="HomeLinkText">You're not a true fan until you can show it off to
+												the
+												world! Click on image on the left to see the selection.</p>
+											<i class="HomeLinkArrow fas fa-arrow-left fa-lg"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
-				</div>
-				<footer class="container-fluid FooterRow">
-					<div class="row">
-						<div class="col-4 FooterSection">
-							<p class="DesignerStamp">Designed and Tested by <a class="DesignerLink"
-									href="https://github.com/laurence100795" target="_blank">L.A.D
-									Design <i class="fab fa-github"></i></a></p>
-						</div>
-						<hr class="VerticalDivider">
-						<div class="col-4 FooterSection">
-							<p class="ReportLink"><a class="ReportLinkStyle" href="Report.html">Report
-									Issues</a></p>
-						</div>
-						<hr class="VerticalDivider">
-						<div class="FooterSection3">
-							<div class="row">
-								<div class="col-12">
-									<a href="https://twitter.com/the1975" target="_blank"><i class="SocialLink fa-lg fab fa-twitter"></i></a>
-									<a href="https://www.instagram.com/the1975/" target="_blank"><i class="SocialLink fa-lg fab fa-instagram"></i></a>
-									<a href="https://www.youtube.com/the-1975" target="_blank"><i class="SocialLink fa-lg fab fa-youtube"></i></a>
-									<a href="https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW" target="_blank"><i class="SocialLink fa-lg fab fa-spotify"></i></a>
+					<footer class="container-fluid FooterRow">
+						<div class="row">
+							<div class="col-4 FooterSection">
+								<div class="DesignerStamp">
+									<p class="NoMarg">Designed and Tested by <a class="DesignerLink"
+											href="https://github.com/laurence100795" target="_blank">L.A.D
+											Design <i class="fab fa-github"></i></a></p>
+								</div>
+							</div>
+							<hr class="VerticalDivider">
+							<div class="col-4 FooterSection">
+								<p class="ReportLink"><a class="ReportLinkStyle" href="Report.html">Report
+										Issues</a></p>
+							</div>
+							<hr class="VerticalDivider">
+							<div class="FooterSection3">
+								<div class="LinkCenter">
+									<a href="https://twitter.com/the1975"
+										target="_blank"><i class="SocialLink fa-lg fab fa-twitter"></i></a>
+									<a href="https://www.instagram.com/the1975/"
+										target="_blank"><i class="SocialLink fa-lg fab fa-instagram"></i></a>
+									<a href="https://www.youtube.com/the-1975"
+										target="_blank"><i class="SocialLink fa-lg fab fa-youtube"></i></a>
+									<a href="https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW"
+										target="_blank"><i class="SocialLink fa-lg fab fa-spotify"></i></a>
+
 								</div>
 							</div>
 						</div>
-					</div>
-				</footer>
+					</footer>
+				</div>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-</script>
-<script src="./Assets/JS/HomeJS.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
