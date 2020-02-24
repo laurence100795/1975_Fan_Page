@@ -57,6 +57,7 @@ button:active{
 
 .TopNav { /*Navbar logo box styling*/
     background-color: #fafafa;
+    max-height: fit-content;
 }
 
 .NavLogo { /*Navbar Logo Styling*/
@@ -104,17 +105,17 @@ button:active{
 
 /*----Footer----*/
 
-html { /*Required for footer postioning*/
+html,
+body {
     height: 100%;
 }
 
-body { /*Creating column flex to stick footer to bottom*/
+body {
     display: flex;
     flex-direction: column;
-    
 }
 
-.Content { /*Pushes footer to the bottom of the page*/
+.Content {
     flex: 1 0 auto;
 }
 
@@ -253,6 +254,9 @@ footer { /*Pushes footer to the bottom of the page*/
         .DesignerStamp {
             padding-top: 14px;
         }
+        .FooterRow {
+            height: 115px;
+        }
 }
 /*----Footer hover styles----*/
 
@@ -348,6 +352,7 @@ footer { /*Pushes footer to the bottom of the page*/
     max-width: 400px;
     width: inherit;
     padding: 15px;
+    cursor: pointer;
 }
 
 .HomeLinkTitle {
@@ -441,8 +446,9 @@ footer { /*Pushes footer to the bottom of the page*/
 
 .AlbumCallout h2 {
     font-weight: 400;
-    font-size: 36;
+    font-size: 36px;
     letter-spacing: 2px;
+    margin-top: 10px;
 }
 
 .AlbumCallout p {
@@ -466,10 +472,14 @@ footer { /*Pushes footer to the bottom of the page*/
     width: 100%;
     height: 100%; 
     font-weight: 300;
+    margin-bottom: 25px;
 }
 
 .AlbumContainer {
     padding: 15px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    color: white;
 }
 
 .AlbumCoverPhoto {
@@ -503,6 +513,8 @@ footer { /*Pushes footer to the bottom of the page*/
 .AlbumPurchase div a h4 {
     padding: 10px 0;
     font-weight: 300;
+    color: white;
+    transition: 0.1s ease-in;
 }
 
 /*----Merch Media Queries----*/
@@ -511,4 +523,11 @@ footer { /*Pushes footer to the bottom of the page*/
     .AlbumTopper {
         display: none;
     }
+}
+
+/*----Merch Effect----*/
+
+.AlbumPurchase div a h4:hover {
+    color: yellow;
+    font-weight: 400;
 }
