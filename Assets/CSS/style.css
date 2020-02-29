@@ -531,3 +531,78 @@ footer { /*Pushes footer to the bottom of the page*/
     color: yellow;
     font-weight: 400;
 }
+
+/*----Venue Body----*/
+
+.BandContainer{
+    color: #fafafa;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.BandCalloutContainer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.BandCalloutHead {
+    font-size: 46px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.BandCalloutPara {
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.BandMember {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.BandMemberImage {
+    margin-top: 20px;
+    max-width: 400px;
+    width: inherit;
+}
+
+.BandMemberName {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.BandMemberText {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.BandInfoContainer {
+    
+}
+
+.InfoAlbum {
+    max-width: 300px;
+    width: inherit;
+    float: left;
+    padding-right: 20px;
+}
+
+.BandInfoContainer div h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.BandInfoContainer div h2 {
+    text-align: center;
+}
+
+.BandInfoContainer div p {
+    text-align: center;
+}
+
+.BandInfoContainer div div img {
+    
+}

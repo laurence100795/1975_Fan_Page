@@ -98,4 +98,8 @@ https://genius.com/album_cover_arts/14496
 https://www.stereogum.com/1861215/album-of-the-week-the-1975-i-like-it-when-you-sleep-for-you-are-so-beautiful-yet-so-unaware-of-it/franchises/album-of-the-week/
 https://en.wikipedia.org/wiki/A_Brief_Inquiry_into_Online_Relationships
 https://genius.com/album_cover_arts/371239
+https://www.google.com/search?q=adam+hann+the+1975&tbm=isch&ved=2ahUKEwj5j8zutvTnAhWS8IUKHQ-bAS4Q2-cCegQIABAA&oq=adam+hann+the+1975&gs_l=img.3..35i39l2j0j0i24l2.32964.32964..33233...0.0..0.56.56.1......0....1..gws-wiz-img.LdNpJAS3IKo&ei=0h9ZXvneI5LhlwSPtobwAg&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=sW96kpaAPOFgnM&imgdii=_-QQBqEBOZ92fM
+https://www.google.com/search?q=Ross+MacDonald+the+1975&tbm=isch&ved=2ahUKEwjAn_r-tvTnAhVQ8BoKHaXRCYQQ2-cCegQIABAA&oq=Ross+MacDonald+the+1975&gs_l=img.3..0l2j0i5i30l2j0i24l6.329943.330548..331489...0.0..0.53.103.2......0....1..gws-wiz-img.......0i7i30j0i7i5i30.6UXhy-9ZQXY&ei=9B9ZXsDVNtDga6Wjp6AI&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=K-NvaQcHwxaBmM
+https://www.google.com/search?q=George+Daniel+the+1975&tbm=isch&ved=2ahUKEwjj5MCduPTnAhUI-hoKHefyBXAQ2-cCegQIABAA&oq=George+Daniel+the+1975&gs_l=img.3..0i67j0l6j0i24l3.178226.178226..179021...0.0..0.60.60.1......0....1..gws-wiz-img.saxSCPXjySM&ei=QSFZXqPAGIj0a-fll4AH&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=EIfV4Yx3zniGaM
+https://s1.r29static.com/bin/entry/fa9/x,80/1289787/rexusa-2130180ak.jpg
 <p>How to center text horizontally and vertically with flexbox. -- </p>https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
