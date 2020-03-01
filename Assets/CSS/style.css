@@ -53,6 +53,7 @@ button:active{
     height: 2px;
     color: rgba(0, 0, 0, 0.6);
 }
+
 /*----NavBar----*/
 
 .TopNav { /*Navbar logo box styling*/
@@ -561,6 +562,18 @@ footer { /*Pushes footer to the bottom of the page*/
     padding: 20px 0;
 }
 
+#map {
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MapContainer h2 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
 .BandMember {
     text-align: center;
     padding: 0 30px;
@@ -653,13 +666,13 @@ footer { /*Pushes footer to the bottom of the page*/
     }
     .BandInfoContainer p{
         padding:0 40px;
-        font-size: 22px;
+        font-size: 22px!important;
     }
     .BandInfoContainer li{
         font-size: 18px;
     }
     .BandMemberContainer p{
-        font-size: 18px;
+        font-size: 18px!important;
     }
 }
 
@@ -667,9 +680,23 @@ footer { /*Pushes footer to the bottom of the page*/
     .fa-4x {
         font-size: 1.5em;
     }
-    .
-@keyframes ScrollerAppear {
-  from {right: -100px;}
-  to {right: 20px;}
+    .BandInfoContainer li {
+        font-size: 14px;
+    }
+
+    .BandInfoContainer p {
+        font-size: 14px!important;
+    }
+
+    .BandMemberContainer p{
+        font-size: 14px;
+    }
+
 }
+
+@media(max-width:400px) {
+    #map {
+    width: 250px;
+    height: 250px;
+    }
 }
