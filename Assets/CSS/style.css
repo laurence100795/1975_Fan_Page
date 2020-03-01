@@ -540,6 +540,10 @@ footer { /*Pushes footer to the bottom of the page*/
     font-family: "Roboto", sans-serif;
 }
 
+.BandMemberContainer h2 {
+    text-align: center;
+    font-weight: 200;
+}
 
 .BandCalloutContainer {
     padding: 30px 0;
@@ -547,7 +551,7 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 .BandCalloutHead {
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 200;
     letter-spacing: 2px;
 }
@@ -579,15 +583,19 @@ footer { /*Pushes footer to the bottom of the page*/
     margin-left: auto;
 }
 
-.BandInfoContainer {
-    
-}
-
 .InfoAlbum {
     max-width: 300px;
     width: inherit;
     float: left;
-    padding-right: 20px;
+    padding: 20px;
+}
+
+.InfoAlbumContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 .BandInfoContainer div h1 {
@@ -601,8 +609,67 @@ footer { /*Pushes footer to the bottom of the page*/
 
 .BandInfoContainer div p {
     text-align: center;
+    font-size: 18px;
 }
 
-.BandInfoContainer div div img {
-    
+.BandContainer div hr {
+    color: #fafafa;
+    border-color: #fafafa;
+}
+
+/*----Band Page Animation----*/
+.fa-chevron-circle-up{
+    color:#fafafa96;
+}
+
+.TopScroller {
+	position:fixed;
+    bottom: 120px;
+    right: -100px;
+}
+
+.TaketoTop {
+  animation-name: ScrollerAppear;
+  animation-duration: 1.5s; 
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes ScrollerAppear {
+  from {right: -100px;}
+  to {right: 50px;}
+}
+
+@media(max-width:1024px) {
+    .fa-4x {
+        font-size: 2.5em;
+    }
+@keyframes ScrollerAppear {
+  from {right: -100px;}
+  to {right: 20px;}
+}
+    .BandMemberContainer{
+        padding:0 40px;
+    }
+    .BandInfoContainer p{
+        padding:0 40px;
+        font-size: 22px;
+    }
+    .BandInfoContainer li{
+        font-size: 18px;
+    }
+    .BandMemberContainer p{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:767px) {
+    .fa-4x {
+        font-size: 1.5em;
+    }
+    .
+@keyframes ScrollerAppear {
+  from {right: -100px;}
+  to {right: 20px;}
+}
 }
