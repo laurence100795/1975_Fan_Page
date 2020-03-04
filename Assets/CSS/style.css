@@ -684,6 +684,9 @@ footer { /*Pushes footer to the bottom of the page*/
     .fa-4x {
         font-size: 1.5em;
     }
+    .BandMember {
+        padding: 0;
+    }
     .BandInfoContainer li {
         font-size: 14px;
     }
@@ -704,3 +707,50 @@ footer { /*Pushes footer to the bottom of the page*/
     height: 250px;
     }
 }
+
+/*---- Venue Page ----*/
+.VenueContent {
+    background-color: black;
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.VenueCallout {
+    text-align: center;
+}
+
+.VenueCallout h1 {
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.VenueCallout div div {
+    margin:0 20%;
+    margin-bottom: 100px;
+}
+
+.VenueContainer {
+    padding:0 5%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.VenueContainer h2 {
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+.VenueContainer h3 {
+    font-weight: 300;
+}
+
+.VenueContainer h4 {
+    font-weight: 300;
+}
+
+.VenueContainer a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 24px;
+}
+
