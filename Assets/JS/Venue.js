@@ -16,6 +16,8 @@ async function renderToUI() {
     let type = document.createElement("h4");
     let Link = document.createElement("a");
     let Divide = document.createElement("hr")
+    let Divide2 = document.createElement("hr")
+
 
     
     Link.href = item.venue.uri; // Tells "Link" has a href and where to get it from
@@ -44,12 +46,12 @@ async function renderToUI() {
 
     // Add the new header and paragraph to containing div
     VenueDiv.appendChild(VenueName);
-    VenueDiv.appendChild(Divide)
+    VenueDiv.appendChild(Divide);
     VenueDiv.appendChild(location);
     VenueDiv.appendChild(type);
     VenueDiv.appendChild(time);
     VenueDiv.appendChild(Link);
-
+    VenueDiv.appendChild(Divide2);
     // Append the div to the body
     VenueBody.appendChild(VenueDiv);
   }

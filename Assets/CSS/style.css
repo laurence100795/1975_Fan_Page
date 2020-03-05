@@ -326,6 +326,8 @@ footer { /*Pushes footer to the bottom of the page*/
     font-family: 'Roboto', sans-serif;
     color:white;
     letter-spacing: 2px;
+    padding-top: 15px;
+
 }
 
 .HomeCallout { /*Home callout text styling*/
@@ -529,6 +531,15 @@ footer { /*Pushes footer to the bottom of the page*/
     }
 }
 
+@media(max-width:540px) {
+    .AlbumTitle h2 {
+        padding-bottom: 15px;
+    }
+    .AlbumPurchase {
+        padding-top: 15px;
+    }
+}
+
 /*----Merch Effect----*/
 
 .AlbumPurchase div a h4:hover { /*Merch page purchase link hover effect*/
@@ -722,21 +733,30 @@ footer { /*Pushes footer to the bottom of the page*/
     
 }
 
+.VenueCallout hr {
+    background-color: #fafafa;
+}
+
 .VenueCallout .col-8 {
     margin-top: 40px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
+
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .VenueCallout h1 {
-    padding: 20px 0;
+    padding: 20px 0 10px 0;
     font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 48px;
 }
+
 
 .VenueCallout div div {
     margin:0 20%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
 }
 
@@ -760,6 +780,7 @@ footer { /*Pushes footer to the bottom of the page*/
 .VenueContainer h2 {
     letter-spacing: 4px;
     font-weight: 800;
+    font-size: 28px;
 }
 
 .VenueContainer h3 {
@@ -788,4 +809,26 @@ footer { /*Pushes footer to the bottom of the page*/
     color: yellow;
     border-color: yellow;
     background-color: #00000052;
+}
+
+@media (max-width:540px){
+    .VenueCallout h1 {
+        font-size: 28px;
+}
+    .VenueCallout div div {
+        margin: 0;
+    }
+    .VenueCallout h3 {
+        font-size: 20px;
+    }
+    .VenueContainer h3 {
+        font-size: 20px;
+    }
+    .VenueContainer h4 {
+        font-size: 16px;
+    }
+    .VenueContainer a {
+        font-size: 20px;
+    }
+
 }
