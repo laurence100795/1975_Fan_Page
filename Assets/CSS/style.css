@@ -294,6 +294,22 @@ footer { /*Pushes footer to the bottom of the page*/
     color: #1ed761;
 }
 
+/*----SLide JS Stlying----*/
+
+.SlideImage { /*Background slide image styling*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000045;
+    object-fit: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
 /*----Home Body----*/
 
 .HomeCalloutContainer{ /*Home callout container styling*/
@@ -303,19 +319,6 @@ footer { /*Pushes footer to the bottom of the page*/
 
 .HomeLinks { /*Home links margin*/
     margin-top: 70px;
-}
-
-.SlideImage { /*Background slide image styling*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-attachment: fixed;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
 }
 
 .HomeTitle { /*Home title text styling*/
@@ -710,13 +713,20 @@ footer { /*Pushes footer to the bottom of the page*/
 
 /*---- Venue Page ----*/
 .VenueContent {
-    background-color: black;
     color: #fafafa;
     font-family: "Roboto", sans-serif;
 }
 
 .VenueCallout {
     text-align: center;
+    
+}
+
+.VenueCallout .col-8 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .VenueCallout h1 {
@@ -727,12 +737,24 @@ footer { /*Pushes footer to the bottom of the page*/
 .VenueCallout div div {
     margin:0 20%;
     margin-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .VenueContainer {
     padding:0 5%;
+    padding-top: 10px;
     text-align: center;
     margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.VenueContainer hr {
+    background-color: #fafafa;
+    border: 0;
+    height: 1px;
 }
 
 .VenueContainer h2 {
@@ -752,5 +774,18 @@ footer { /*Pushes footer to the bottom of the page*/
     text-decoration: none;
     color: #fafafa;
     font-size: 24px;
+    border-color: #fafafa;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0 3px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    background-color: #00000052;
 }
 
+.VenueContainer a:hover,
+.VenueContainer a:active {
+    color: yellow;
+    border-color: yellow;
+    background-color: #00000052;
+}

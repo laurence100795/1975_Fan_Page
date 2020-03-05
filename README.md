@@ -102,4 +102,8 @@ https://www.google.com/search?q=adam+hann+the+1975&tbm=isch&ved=2ahUKEwj5j8zutvT
 https://www.google.com/search?q=Ross+MacDonald+the+1975&tbm=isch&ved=2ahUKEwjAn_r-tvTnAhVQ8BoKHaXRCYQQ2-cCegQIABAA&oq=Ross+MacDonald+the+1975&gs_l=img.3..0l2j0i5i30l2j0i24l6.329943.330548..331489...0.0..0.53.103.2......0....1..gws-wiz-img.......0i7i30j0i7i5i30.6UXhy-9ZQXY&ei=9B9ZXsDVNtDga6Wjp6AI&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=K-NvaQcHwxaBmM
 https://www.google.com/search?q=George+Daniel+the+1975&tbm=isch&ved=2ahUKEwjj5MCduPTnAhUI-hoKHefyBXAQ2-cCegQIABAA&oq=George+Daniel+the+1975&gs_l=img.3..0i67j0l6j0i24l3.178226.178226..179021...0.0..0.60.60.1......0....1..gws-wiz-img.saxSCPXjySM&ei=QSFZXqPAGIj0a-fll4AH&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=EIfV4Yx3zniGaM
 https://s1.r29static.com/bin/entry/fa9/x,80/1289787/rexusa-2130180ak.jpg
+http://getwallpapers.com/wallpaper/full/9/0/c/107452.jpg
+https://www.sambrinson.com/music-part-3/
+https://wallpaperscraft.com/download/concert_crowd_people_134866/1920x1080
+https://images.wallpaperscraft.com/image/hands_concert_audience_silhouettes_116738_1920x1080.jpg
 <p>How to center text horizontally and vertically with flexbox. -- </p>https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
