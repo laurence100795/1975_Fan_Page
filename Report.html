@@ -21,7 +21,7 @@
 </head>
 
 <body>
-<div class="TopNav col-12">
+<div onclick="location='index.html'" class="TopNav col-12">
 			<div class="NavLogoBackGround"><img class="NavLogo" src="./Assets/Images/SiteLogo/1975_logo.png" alt="Site Logo"></div>
 			</div>
 			<nav class="navbar navbar-expand-xl navbar-light">
@@ -56,15 +56,15 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-2"></div>
-				<div class="FormStyle col-8">
+				<div class="col-md-1"></div>
+				<div class="FormStyle col-12 col-md-10">
 					<form onsubmit="return sendMail(this);">
 						<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email Address" required/>
 						<textarea rows="7" name="errorsummary" class="form-control" id="errorsummary" placeholder="Issue You're Reporting" required></textarea>
 						<button type="submit" class="ButtonStyle">Report Issue</button>
 					</form>
 				</div>
-				<div class="col-2"></div>
+				<div class="col-md-1"></div>
 			</div>
 		</div>
 <footer class="container-fluid FooterRow">

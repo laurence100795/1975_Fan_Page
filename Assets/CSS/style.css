@@ -59,6 +59,7 @@ button:active{
 .TopNav { /*Navbar logo box styling*/
     background-color: #fafafa;
     max-height: fit-content;
+    cursor: pointer;
 }
 
 .NavLogo { /*Navbar Logo Styling*/
@@ -188,7 +189,7 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 .ReportLinkStyle { /*Required for report link effect*/
-    transition: color 0.5s ease;
+    transition: color 0.5s ease-in-out;
 }
 
 .SocialLink { /*Social footer links styling*/
@@ -268,10 +269,8 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 .ReportLinkStyle:hover { /*Report Footer hover style*/
-    font-weight: 900;
-    color: #8b0000;
+    color: #ff0202;
     text-decoration: none;
-    transition-timing-function: ease-in-out;
 }
 
 .fa-twitter:hover { /*Twiiter hover effect*/
@@ -419,6 +418,10 @@ footer { /*Pushes footer to the bottom of the page*/
     padding-top: 40px;
 }
 
+form button {
+        margin: 20px 0!important;
+}
+
 .ButtonStyle,
 .ButtonStyle:focus,
 .ButtonStyle:active { /*Form button styling and positioning*/
@@ -442,7 +445,14 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 /*----Merch Body----*/
+.MerchContent{ /*Merch page background and text default colours*/
+    background-color: black;
+    color: #fafafa;
+}
 
+.MerchContent hr { /*Merch page dividers default colours*/
+    border-color: #fafafa;
+}
 
 .AlbumCallout { /*Album Callout padding and text styling*/
     font-family: "Roboto",sans-serif;
@@ -483,7 +493,7 @@ footer { /*Pushes footer to the bottom of the page*/
 
 .AlbumContainer { /*Album container styling*/
     padding: 15px 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(243, 243, 243, 0.29);
     margin-bottom: 10px;
     color: white;
 }
@@ -520,7 +530,7 @@ footer { /*Pushes footer to the bottom of the page*/
     padding: 10px 0;
     font-weight: 300;
     color: white;
-    transition: 0.1s ease-in;
+    transition: 1s ease-in-out;
 }
 
 /*----Merch Media Queries----*/
@@ -542,9 +552,11 @@ footer { /*Pushes footer to the bottom of the page*/
 
 /*----Merch Effect----*/
 
-.AlbumPurchase div a h4:hover { /*Merch page purchase link hover effect*/
+.AlbumPurchase div a h4:hover,
+.AlbumPurchase div a h4:focus,
+.AlbumPurchase div a h4:active { /*Merch page purchase link hover effect*/
     color: yellow;
-    font-weight: 400;
+    font-size: 28px;
 }
 
 /*----Band Body----*/
@@ -723,30 +735,29 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 /*---- Venue Page ----*/
-.VenueContent {
+.VenueContent { /*Venue Page default background and text colours*/
     color: #fafafa;
     font-family: "Roboto", sans-serif;
 }
 
-.VenueCallout {
+.VenueCallout { /*Venue Callout text alignment*/
     text-align: center;
     
 }
 
-.VenueCallout hr {
+.VenueCallout hr { /*Venue page divider colours*/
     background-color: #fafafa;
 }
 
-.VenueCallout .col-8 {
+.VenueCallout .col-8 { /*Venue callout styling*/
     margin-top: 40px;
     margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
-
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.VenueCallout h1 {
+.VenueCallout h1 { /*Venue page title styling*/
     padding: 20px 0 10px 0;
     font-weight: 300;
     letter-spacing: 4px;
@@ -754,13 +765,13 @@ footer { /*Pushes footer to the bottom of the page*/
 }
 
 
-.VenueCallout div div {
+.VenueCallout div div { /*Venue callout inner styling*/
     margin:0 20%;
     margin-bottom: 50px;
     padding-bottom: 20px;
 }
 
-.VenueContainer {
+.VenueContainer { /*Venue callout inner styling*/
     padding:0 5%;
     padding-top: 10px;
     text-align: center;
@@ -771,27 +782,27 @@ footer { /*Pushes footer to the bottom of the page*/
     padding-bottom: 10px;
 }
 
-.VenueContainer hr {
+.VenueContainer hr { /*Venue Container Styling*/
     background-color: #fafafa;
     border: 0;
     height: 1px;
 }
 
-.VenueContainer h2 {
+.VenueContainer h2 { /*Venue Container title styling*/
     letter-spacing: 4px;
     font-weight: 800;
     font-size: 28px;
 }
 
-.VenueContainer h3 {
+.VenueContainer h3 { /*Venue Container location styling*/
     font-weight: 300;
 }
 
-.VenueContainer h4 {
+.VenueContainer h4 { /*Venue Container sub information styling*/
     font-weight: 300;
 }
 
-.VenueContainer a {
+.VenueContainer a { /*Venue Container button styling*/
     text-decoration: none;
     color: #fafafa;
     font-size: 24px;
@@ -804,14 +815,14 @@ footer { /*Pushes footer to the bottom of the page*/
     background-color: #00000052;
 }
 
-.VenueContainer a:hover,
+.VenueContainer a:hover, /*Venue Container button effect styling*/
 .VenueContainer a:active {
     color: yellow;
     border-color: yellow;
     background-color: #00000052;
 }
 
-@media (max-width:540px){
+@media (max-width:540px){ /*Venue page device optimisation*/
     .VenueCallout h1 {
         font-size: 28px;
 }
