@@ -6,7 +6,7 @@ function sendMail(contactForm){
 emailjs.send('gmail', 'milestone_project_2', templateParams)
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
-       setTimeout("location.reload(true);",1000);
+       setTimeout("location.reload(true);",500);
     }, function(error) {
        console.log('FAILED...', error);
     });

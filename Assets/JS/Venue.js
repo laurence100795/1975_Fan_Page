@@ -6,7 +6,7 @@ async function renderToUI() {
 
   for (let item of eventData) {
     // Here we'll get the container to place the
-    let VenueBody = document.querySelector("container");
+    let VenueBody = document.querySelector("#Venue");
 
     // Next create the new elements
     let VenueDiv = document.createElement("div");
