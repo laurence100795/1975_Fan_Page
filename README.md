@@ -1,13 +1,17 @@
-<h2>Introduction</h2> 
+<h1>Milestone Project 2</h1>
 
-<p>This is my Seond major project for my full stack development course with the code institute. I am planning on creating a fan page for one of my favourite bands. The reason I chose to do this is I will be interested and intvested in this topic and I believe I can make it work.</p>
+<h2>Introduction</h2> 
+<hr>
+<p>This is my second major project for my full-stack development course with the Code Institute. I am planning on creating a fan page for one of my favourite bands. The reason I chose to do this is I will be interested and invested in this topic and I believe I can make it work.</p>
+
 
 <h2>Intitial Ideas</h2>
-
-<p>To start with I had to think how I could implement my new found skills into this project to test me. I will start by building a basic layout for the pages with HTML and CSS. I will only use CSS for static styling on this project and leave the animations and interactive styling to the javascript to process. </p> 
-<p>I have thought about various different API's that work with this Idea and the ones I have come up with so far are going to be listed below.</p>
+<hr>
+<p>To start with I had to think about how I could implement my newfound skills into this project to test me. I will start by building a basic layout for the pages with HTML and CSS. I will javascript to add interesting animations and interactivity to the site. </p> 
+<p>I have thought about various API's that work with this Idea and the ones I have come up with so far are going to be listed below.</p>
 
 <h2>API Ideas</h2>
+<hr>
 <ul>
 <li>Wikipedia API - for information on the members.</li>
 <li>Google Maps API - to visually present where they're from or were founded.</li>
@@ -15,95 +19,141 @@
 <li>Email API - I'll use this to create a report website fault form to and administator of the website.</li>
 <li>Spotify API - I could have a page with there latest songs allowing you to stream as much as permitted from the site.</li>
 </ul>
+<p>With the API's above I should be able to pull a lot of information to my website and successfully demonstrate my ability with JSON.</p>
 
-<p>With the API's above I should be able to pull a lot of information to my website and successfully demonstate my ability with JSON.</p>
+<h2>Planning Stage – idea 1</h2>
+<hr>
+<p><b>Wireframe found in GitHub on Assets > Planning & Testing</b></p>
+<p>I have started messing around with designs on Balsamiq so I can get a start to picture I’m going to be working with. If you see below this is the idea I had and this is what I created in Balsamiq.</p>
+<p>From this stage, I have concluded that this website will probably consist of 9-10 pages I'll break them down now.</p>
 
-<h2>Planning Stage</h2>
-<p>I have started messing around with designs on balsamiq so I can get a starting picture of what to work with. I have only done 2 pages so far and I am planning on doing one for each page.</p>
-<p>From this stage I have come to the conclusion that this webiste will probably consist of 9-10 pages I'll break them down now.</p>
+<h2>Website pages</h2>
+<hr>
 
-<h3>Website pages</h3>
 
 <ul>
-<li>Home page - Pretty landing page to catch the attention of the vistors.</li>
+<li>Home page - Pretty landing page to catch the attention of the visitors.</li>
 <li>Store page - A with albums and possibly other items which when clicked will take you to a site where you can buy them.</li>
-<li>About page - This page will consist of 5 images and a bit of text explaining the page. the 5 images will be links the four band members separate pages as well as page for the band overall. </li>
-<li>Tour Dates page - If i get an API key for this I will make a page that pulls all the bands upcoming tours and locations.</li>
-<li>Report issue Page - I will create a report issue form where it will send an email to my address. The link for this page will be located in the footer of the website.</li>
+<li>About page - This page will consist of 5 images and a bit of text explaining the page. the 5 images will be linking the four band members separate pages as well as a page for the band overall.</li>
+<li>Tour Dates page - If I get an API key for this, I will make a page that pulls all the bands' upcoming tours and locations.</li>
+<li>Report issue Page - I will create a report issue form where it will send an email to my address. The link for this page will be in the footer of the website.</li>
 </ul>
 
-<h2>Wire Frame</h2>
-<p>I used the pages above to create basic wireframe layouts for the pages I'm creating for my project website. I'll now break down the layouts below.</p>
-<p><b>Inside the Assets folder there is a copy of the wireframe</b></p>
-<h3>Nav Bar</h3>
-<p>The Nav Bar for the majority of it will be the 1975 logo sticking to the left side and taking up to 60%-85% of the screen. to the right of it will have links to the separate pages as well as there social links.</p>
-<p>The logo will be static unless I can find a gif which is very simplistic with minor animation. the buttons to the right will all have hover and click effects through javascript.</p>
-<h3>Footer Bar</h3>
-<p>the footer will be very simple, it will have three items which are Copyright mark, Github Link and Report issue button.</p>
-<p>the Copyright mark will be static the report and Github link will have a hover and animated effect.</p>
-<h3>Home Page</h3>
-<p>The home page is going to be eye catching shot and sweet text with photos. there will be a large centre photo and if I can figure it out make it slide from side to side on a few second timer.</p>
-<p>The will be static images below which will have text over them stating they are links to specific pages. when hovered over they will have an effect as well as a on click effect.</p>
-<h3>Store Page</h3>
-<p>For the store page I will only include the bands albums(at this point in time that might change) and have them vertically aligned on top of each other in the centre of the page.</p>
-<p>On the left it will have the name and description on the album and on the right there will be a animated buy now button which will be a hyperlink to Amazon or some other place where you can purchase the item.</p>
-<h3>About Page Hub</h3>
-<p>The about page will consist of 5 page links the band members and a separate one for the band.</p>
-<p>I want to have an effect that slowly fades the image to black with text in the centre either saying the members name or for the band "The 1975"</p>
-<h3>About Page</h3>
-<p>for each about page I want to have 2 API's in play one a google map for there home town and Wikipedia for the information.</p>
-<p>The original plan was to use the wikipedia API to pull information on each member of the 1975 but unfortunately only the band and the lead singer have an wikipedia page so I changed it to only the one page with the information on the 1975</p>
-<p>I will use the wikipedia API to pull the information about the band onto the page and I will also add a google maps API to point out where they formed</p> 
-<h3>Tour Page</h3>
-<p>This page solely relies on if I get approved for the API key from SongKick or if I find another one that can full the same information.</p>
-<p>The Page will consist of a short and to the point opening paragraph and below will be events that will consist of basic information regarding dates, times, locations etc.</p>
-<p>In the wire frame it consists of only three forms but depending on how I am able to do this it is a subject of change and could increase.</p>
-<p><b>I didn't get Approved for the SongKick API but I managed to get one off Ticket Master so I will be using that API Key for the webiste instead.</b></p>
-<h3>Issue Page</h3>
-<p>This page will not be with the other links it will be located in the footer of every page.</p>
-<p>It will have a simple opening sentence with two form entries one for the ending email address and one for the report.</p>
-<p>The reason I want to put email as well even though it's not really needed I want to setup a thank you message as an auto reply off Email.js.</p>
+<h2>Idea 2</h2>
+<hr>
+<p><b>Wireframe found in GitHub on Assets > Planning & Testing</b></p>
+<p>After working with the design I had I realised I jumped into it without fully looking into some of my ideas. For example, the Wikipedia API wasn’t going to work as I wanted it too so I couldn’t use the Wikipedia API and on top of that, only the lead singer and the band have a Wikipedia page. Due to this I went through a redesign and created a second wireframe.</p>
+<p>Every page expect, the information page remains the same idea but the Homepage and the Venue page had a redesign also. I also changed the navigation bar and the footer to a simpler and cleaner style.</p>
+<p>Please review the wireframes to view these changes.</p>
 
 <h2>Production</h2>
+<hr>
+<p>Below are the steps I took to produce the website broken down in detail including designs, problems, testing and deployment.</p>
+<h2>Navigation Bar</h2>
+<hr>
+<p>As I always do when designing a website, the first point of action is always the Navigation bar. I had a picture of what I wanted which you can see in the wireframe attached. I tried having the logo on the left taking up 75% of the width of the screen and on the right in line with the logo have all the navigation links taking up 25% of the screen. </p>
+<p>I also tried doing this without bootstrap so when it was on a mobile it changed from the suggested style that I just spoke about too a full-width logo with a toggler on the bottom right of it. I managed to get it to change and when it was small and was able to make it extend but I couldn’t get it to revert to its original view. I attempted this with jQuery by using a sizing command and classes to change the positioning.</p>
+<p>I, unfortunately, hit a wall tried going to the tutors for assistance and the one I spoke to stated that I was over complicating it and suggested I go back to bootstrap. I then scrapped the idea and went back to bootstrap with the design and managed to get the navigation working fine with the bootstrap grid system and navbar options. I also change the design to do containers one being the local which sat on top of the navigation bar. Both containers took up 100% width of the screen keeping it simple and neat.</p>
+<p>As I was building a fan page for “The 1975” I decided to stick to one of their colour screens which were simply black and white. Another change that I made was instead of containing the social links at the top I moved them down to the footer.</p>
 
-<h3>Navigation Bar</h3>
+<h2>Footer Bar</h2>
+<hr>
+<p>The footer design is the second thing I built after the Navigation bar as these two things carry over onto every page best get them right from the start instead of changing it up later. I see it as a template for each page when they have both been completed so I have the start of the website before implementing the content. After amending the navigation bar and removing the social links I knew exactly how I would do this. I split the footer into 3 different sections all the same size using the “col-4” from bootstrap. </p>
+<p>The first container (left) was the designer stamp so accrediting myself for the website production. It was a single line of text stating I built the website with a span which contained a clickable link to my GitHub account so they can see my previous work. The middle is a button that sends you to another page the “Report Issues Page” simple to implement but I’ll go on about that in a later section. The final section (right) was a tab that contains Twitter, Instagram, YouTube and Spotify links.</p>
+<p>I once again used bootstrap (col-4) to space the rows equalling. I struggled to get them to the centre horizontally and vertically correctly until I came across this flexbox method, I found on stack overflow. I originally had the margins and padding configured for each size change but when I found this method, I removed all the old styling and replaced the rows centring styling with that. Between each row, there is a vertical divider. I put these in place so that you can see each section separated.</p>
+<p>For the social links, I have added a hover which they change from black to their actual colours, the reports button font-weight increases, and it transitions to red. The Designer link also has a hover effect it’s grey statically and when you hover over it goes black and font-weight increases.</p>
 
-<p>When I starting designing the navigation bar I used the wireframe as an a template. I had many attempts at getting this working and eventually changed it completely.</p>
+<h2>Home Page</h2>
+<hr>
+<p>The homepage went through a few different designs. One that I liked and went with was what I created in the first wireframe. Once I started creating the page I originally did it statically with just the images and containers and I realised there was way too much going on in the page. So, I decided to change the page again, I went through various formats on GitPod until I sat down and created another wireframe trying to come up with a better version of the page. I thought up a few ideas but one thing I wanted to remain which I wanted to be included in the homepage from the beginning was the changing background.</p>
+<p>I found a way of doing this with javascript and wanted to use it in the website so I tried to think of different ways of making a page with a changing background where the content will not be affected by the animation. I decided to put the content on the make in reduced opacity black containers with white text. This was so you could still see the image in the background through the elements but the text and images inside the element stood out with no stain or issues with reading the content. I decided to do a small callout at the top of the page introducing the users of the website to the site and what it was about.</p>
+<p>Below that were 3 equalling sized and spaced containers with images on the left side and text on the right site. To get the images to scale with the size-changing on the page they had a set max-width but if they got any smaller, they inherited their new width from the element containing them. These images also were links to sperate pages with the images having relevant meaning to each page.</p>
+<p>On the left, there was a title stating what this was, text going into a little more detail on the matter and an arrow pointing left at the image decide it. Once the page changed from desktop to mobile the image went above the text taking up the full width of the screen and the text below doing the same. The arrows pointing left also disappear at this size as them pointing left makes no sense.</p>
 
-<h4>Attempt 1</h4>
-<p>I used bootstrap and tried my design. I managed to shape the nav bar as I wanted in my wirefrmae but I couldn't get the toggler to work correctly so after a few hours a started again but this time without bootstrap.</p>
-<h4>Attempt 2</h4>
-<p>I tried doing the Navigation bar without any bootstrap and learning howe to use the flexbox tools on my own. I have now gained a decent idea of how to use flexbox works but I struggled to get the animations to work the way I wanted and where they where meant to appear.</p>
-<p>I used JQuery for the animations but they didn't work either which was a large problem. I got it to eventually open and close but without any sliding effect and there was a prolbem with the stlying it wouldn't take no matter how far I broke down the classes in CSS. After testing with it for sometime I decided to go back to bootstrap with a redesign</p>
-<h4>Attempt 3</h4>
-<p>I changed the design from the wireframe making it the logo on top and the links below. this worked without any issues and I managed to break down the design of this fairly easily shaping it to how I imagined. I centred the text got the toggler to kick in at the large pixel range and the animation was smooth and pushed the page down without any issues.</p>
-<p>When it was toggled I </p>
+<h2>Report Page</h2>
+<hr>
+<p>The report page is something I have seen on other websites I think its clever way for quick relative fixes to a website that users can report on. I thought it would be a nice feature and on top of that, it would be a nice way to implement Email.js to the website. I started with getting a simple form from bootstrap took out everything I didn’t want then added text on top with a single h1 tag and two p tags so stating what the purpose of this was for the user. </p>
+<p>The form field consists of two boxes the first is a field for you to put your email in so email.js knows where to send the autoreply letting the user know we have received their email. On top of that the if there was a real issue this field could also be used to contact the user and ask further questions on the issue. The second box is a text area for the user to input the fault they have found and on submitting it will send the email to my email address.</p>
+<p>The javascript to get this working was fairly straight forward due to the video tutorial and on top of that, I did this section when the video was out of date and I had to figure some of it out on my own as well as the support from the tutor support team. I managed to get this added quickly and working.</p>
+<p>One problem I had with it was that on submit the page didn’t change so it didn’t look like the email was sent, so I added another line to the on-success condition. When an email is successfully sent the page will refresh clearing the text added as well as send the email. With this final change, I was happy with the report webpage.</p>
 
+<h2>Merch Page</h2>
+<hr>
+<p>This page has been put in place as it’s appropriate for the website I was designing, and I thought it would be a nice feature. I decided to keep it simple with only adding albums to the page instead of also implementing clothes and records, etc. I made four 3-part containers. From left to right it starts with the name of the album then it’s the album cover/artwork then it’s a link to a location where you can purchase it.</p>
+<p>I decided to use the same style to the home page containers black with reduced opacity with white text, so it didn’t break colour scheme of the website as well as everything remains easy to read and an understandable format. The 3 rows were all joined per album but below in a column the other albums ascended symmetrically. There is a little bit of text at the top which are titles stated what the ascending columns are even though it’s self-explanatory.</p>
+<p>The outcome of the HTML and CSS styling and presentation that I finished with I was happy with. I also added a hover effect to the purchase links making them look interactive, so they went from white to the yellow colour which is the same yellow colour as there new up and coming album “Notes on a Conditional Form”.</p>
 
-<h3>Resource links</h3>
-https://upload.wikimedia.org/wikipedia/commons/8/83/The_1975_Logo.svg
-https://download.hipwallpaper.com/desktop/1920/1080/28/34/T3Fnp6.jpg
-http://getwallpapers.com/wallpaper/full/3/8/e/1126392-the-1975-wallpapers-1920x1080-for-lockscreen.jpg
-https://cdn.hipwallpaper.com/i/90/95/vCxJo7.jpg
-https://wallpapercave.com/w/wp1860588
-https://www.reddit.com/r/the1975/comments/7rhs7r/made_my_own_the_1975_album_cover_what_do_you_think/
-https://www.harpersbazaar.com/uk/culture/staying-in/news/a7901/this-is-our-jam-the-1975/
-readingfestival.com/wp-content/uploads/2019/01/The-1975.png
-https://upload.wikimedia.org/wikipedia/commons/d/d0/The_1975_%2814712180536%29.jpg
-https://www.google.com/search?q=Matthew+Healy&tbm=isch&ved=2ahUKEwiZ0aiRw8_nAhWOBGMBHTMGADYQ2-cCegQIABAA&oq=Matthew+Healy&gs_l=img.3..0i131i67j0i67l3j0j0i67j0l2j0i67j0.64143.64143..64921...0.0..0.59.59.1......0....1..gws-wiz-img.1QdAMpTbs5w&ei=osZFXpn4Eo6JjLsPs4yAsAM&bih=937&biw=1920&rlz=1C1CHBF_en-GBGB758GB758#imgrc=PtuJbgApKJSeCM
-https://niceaf.tumblr.com/post/187193549761/people-the-1975
-http://getwallpapers.com/wallpaper/full/7/b/c/1126481-the-1975-wallpapers-2560x1600-for-iphone.jpg
-https://www.google.com/search?q=1975+wake+up+image&tbm=isch&ved=2ahUKEwit_v6bg9HnAhVbgM4BHbPiAJkQ2-cCegQIABAA&oq=1975+wake+up+image&gs_l=img.3...82424.85687..85845...2.0..0.61.401.8......0....1..gws-wiz-img.......0i30j0i24.3JwXZjpqZZI&ei=DJBGXq3IEtuAur4Ps8WDyAk&bih=937&biw=1920&rlz=1C1CHBF_en-GBGB860GB860&hl=en#imgrc=j7B97o_O246nHM
-https://genius.com/album_cover_arts/14496
-https://www.stereogum.com/1861215/album-of-the-week-the-1975-i-like-it-when-you-sleep-for-you-are-so-beautiful-yet-so-unaware-of-it/franchises/album-of-the-week/
-https://en.wikipedia.org/wiki/A_Brief_Inquiry_into_Online_Relationships
-https://genius.com/album_cover_arts/371239
-https://www.google.com/search?q=adam+hann+the+1975&tbm=isch&ved=2ahUKEwj5j8zutvTnAhWS8IUKHQ-bAS4Q2-cCegQIABAA&oq=adam+hann+the+1975&gs_l=img.3..35i39l2j0j0i24l2.32964.32964..33233...0.0..0.56.56.1......0....1..gws-wiz-img.LdNpJAS3IKo&ei=0h9ZXvneI5LhlwSPtobwAg&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=sW96kpaAPOFgnM&imgdii=_-QQBqEBOZ92fM
-https://www.google.com/search?q=Ross+MacDonald+the+1975&tbm=isch&ved=2ahUKEwjAn_r-tvTnAhVQ8BoKHaXRCYQQ2-cCegQIABAA&oq=Ross+MacDonald+the+1975&gs_l=img.3..0l2j0i5i30l2j0i24l6.329943.330548..331489...0.0..0.53.103.2......0....1..gws-wiz-img.......0i7i30j0i7i5i30.6UXhy-9ZQXY&ei=9B9ZXsDVNtDga6Wjp6AI&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=K-NvaQcHwxaBmM
-https://www.google.com/search?q=George+Daniel+the+1975&tbm=isch&ved=2ahUKEwjj5MCduPTnAhUI-hoKHefyBXAQ2-cCegQIABAA&oq=George+Daniel+the+1975&gs_l=img.3..0i67j0l6j0i24l3.178226.178226..179021...0.0..0.60.60.1......0....1..gws-wiz-img.saxSCPXjySM&ei=QSFZXqPAGIj0a-fll4AH&bih=596&biw=1336&rlz=1C1CHBF_en-GBGB860GB860#imgrc=EIfV4Yx3zniGaM
-https://s1.r29static.com/bin/entry/fa9/x,80/1289787/rexusa-2130180ak.jpg
-http://getwallpapers.com/wallpaper/full/9/0/c/107452.jpg
-https://www.sambrinson.com/music-part-3/
-https://wallpaperscraft.com/download/concert_crowd_people_134866/1920x1080
-https://images.wallpaperscraft.com/image/hands_concert_audience_silhouettes_116738_1920x1080.jpg
-<p>How to center text horizontally and vertically with flexbox. -- </p>https://stackoverflow.com/questions/25311541/how-to-vertically-align-text-inside-a-flexbox
+<h2>Band Information Page</h2>
+<hr>
+<p>I had a couple of ideas for this page which unfortunately fell through due to a certain API’s limitations. I wanted to use Media Wiki which is Wikipedia’s API to pull the information from Wikipedia onto my page but from what I read up on I discovered you can’t pull the raw information directly from the API. I go into more detail on this later in the “JSON Issues” section but this made me conclude after more reading and speaking to my mentor that it was probably best to input the information statically.</p>
+<p>I decided to start the top of the page with pictures of the band members with basic information on them such as name, birthday, birthplace and instruments/roles in the band. They start as half rows until at mid-range pixels they convert to full-width rows stacked on top of each other. Below that is a google map pulled from the Google map API pointing to the location where the members first met. Below is a brief history on “The 1975” where I got all the information from Wikipedia and stripped it apart and rebuilt it into a less bulky version splitting it into 3 separate columns which are 2012-2014, 2015-2016 and 2017 to present. After that section, I made another section which contains all their main albums and information on them. </p>
+<p>This is the raw information straight from Wikipedia copied and pasted. The next section is there inspirations and music style which is also raw information straight from Wikipedia. Once I got all the information in place, I completely styled the page adding the colour scheme, font sizes and dividers between the sections. After I finished styling, I added another javascript feature to the webpage as there is a lot of text on this page and the navigation bar is statically stuck to the top of the page I created a little feature and appears from the right side of the page once you scroll down a certain amount of pixels and on click, it sends you straight back to the top of the page.</p>
+<p>I combined various things that I investigated on W3 school as well as getting the on click to top of page feature from stack overflow. I managed to build this and getting to work the first time, once that was completed, I styled the feature, so it was sized appropriately per device I moved onto the next page.</p>
+
+<h2>Venue Page</h2>
+<hr>
+<p>The Venue page was one of the first Ideas I came up with before even starting the project. So, I applied for some API keys for this feature before I even completed the first wireframe. I applied for the “SongKick” API which I was going to use to pull the for next performances “The 1975” were playing giving information about the venue, location, times and a link to purchase tickets. </p>
+<p>The overall idea I originally had was to have a page with a plain background with 3 separate containers with live concert information pulled directly to the page with a callout above them. In development, I made two changes. One was the background changed from static to an animated changing picture of concert crowds which I thought was quite fitting and I decided to have 4 containers instead of 3 because I felt it fit better as well as looked better on the page.</p>
+<p>The background image was very easy to add as I have already done it on the homepage, but the API get request was quite a struggle. I tested and experimented this for a few days on a separate GitHub repository so I could try and get it working in a simpler environment before integrating it with the website. I ended up getting assistance from my mentor who helped me figure it out and gave me great advice on how to do it. </p>
+<p>We eventually got it working and I then added to the project as well as get it to pull all the information I wanted to appear in the containers. If you want more information on this, please go to the JSON issues section where I go into detail on this. I styled it with the grid system classes from bootstrap and CSS until I have happy with the design. Once I got that sorted I checked the appearing concerts on my page with the top 4 soonest on the SongKick website and they matched.</p>
+
+<h2>Early problems</h2>
+<hr>
+<p>There were a few problems I faced at the beginning which were my fault due to forgetting certain parts of how things work. The first problem was mainly due to lack of experience, I tried making an interactive Navigation bar without bootstrap. The idea I had in my head was to use media queries, classes, jQuery and keyframes. I wanted to have a couple of divs which had a display class of none and that changed when the pages changed size. Was going to use jQuery to amend the classes by adding and removing classes with onclick as well as at certain page widths.</p>
+<p>I managed to get the page to change on size change and managed to make it drop down, but I couldn’t get the drop-down to toggle back up once the button was clicked again. I spent too long on this went to tutor support and ended up going back to bootstrap as I had multiple problems such as retracting the navigation toggler and specific sizing issues which I couldn’t wrap my head around until I figured out and resolved my next issue. The next issue I experienced was some of the bootstrap grid classes weren’t working correctly even though I had correctly set them up. </p>
+<p>I used google chromes developer tools to see what different devices looked like on different pages and no matter what nothing appeared as it should but when I shrunk the window by grabbing the developer window on the right and pulling it across the classes acted as expected. I went through a few redesigns playing with the classes trying to figure it out, but nothing was working. I was getting frustrated that it wouldn’t work even though in certain view I saw it was until I googled the issue and after about 20-30 minutes of browsing the issue I came across a stack overflow issue which was identical and I found the solution.</p>
+<p>I stupidly forgot the metadata from the head of my HTML file. Due to this one line of code, the browser couldn’t understand different devices and page sizes. The second I added it back and tested it everything started working as expected and significantly increased the speed of getting pages sorted. I also believe now this tied into the issues I had with the sizing problems on the custom Navigation bar, maybe if I had this knowledge which I forgot from the start I might have been able to complete the navigation bar and got everything working as expected. </p>
+
+<h2>JSON Issues</h2>
+<hr>
+<p>I had 4 JSON ideas for this website which were: Email extension, Wikipedia information pull, Google Maps and a venue displaying feature for my website. The email extension was very simple as I used the method in the cause which I had a great understating of and completed that implementation within 20 minutes.</p>
+<h3>MediaWiki API</h3>
+<p>The second I spend a few days on which was the Wikipedia information pull. I read all the documentation on Media Wiki and tried various methods of getting that added to my website. I then created a separate Git Pod to attempt and test so that it all the over information on my actual project couldn’t get in the way when I was testing and made it a lot simpler to work with. I then started by setting up a JSON request from a separate javascript file pulling and pushing it to a certain ID inside a div. </p>
+<p>I tried various methods watched countless JSON YouTube videos and read lots on the topic, but it always came up as a loss to me. I went over a few forums eventually that all said the same thing which was in line with what I was trying and that was, unfortunately, this type of request can’t be done through Media Wiki. This was frustrating as I thought I was getting somewhere at some points but all in all, it couldn’t be done I then scrapped that idea and took the information and statically presented on the webpage. </p>
+<p>I came up with another idea which was a div of a font awesome icon that popped up on the side of the screen and onclick took you to the top of the page which I got working through reading up and looking into stack overflow and W3 school.</p>
+<p>I also added the google map API to this page as showing where the band members met which was very simple to add as this is something else, we went through in a tutorial in the final section of the course. I amended the “Lat” and “Lon” to Wilmslow which is where they met and added a marker also.</p>
+<h3>SongKick API</h3>
+<p>The Final API was the “SongKick” API to pull venue information into a DIV for “The 1975”. It was a struggle at the beginning as I thought I wasn’t going to get approved for my API even though I stated it was for educational purchases and I wouldn’t be making any revenue of this site. It took 3 weeks for them to get back to me with the approved which was frustrating because I had to look into alternatives such as Ticket-Master Developer tools as well as alternative ideas like a quiz. After all, I didn’t know if I would be able to get it working.</p>
+<p>It eventually came through, but I was already deep into the over pages, so I put it on the back burner until I finished the other pages. When it came around to it, I started testing it on the same test GitPod that I tested the Wike Media API on. I did a lot of testing and various methods and I could get it to print out as an object to the document, but I struggled to get the object to display as a string. After a couple of days of testing and experimenting, I got wary of my deadline, so I got in contact with my mentor to assist me with this. The next day we had a session together where we went through it. It took us up to 3 hours to fully, get it pulling the information to the document and then we added some basic styling showing giving me a steppingstone in finalising this. I want to state that I Appreciate Aaron Sinnott for this because I feel like without his assistance I would have struggled and missed my deadline. He also showed me the power of Javascript which gave me the inspiration to continue learning javascript thoroughly after this section and continue studying after the course also.</p>
+<p>When we finished that section, I continued the next day as I had a few problems that I still needed to iron out. I wanted the ticket link to target a new tab, I wanted to apply bootstrap for styling and above all, I needed to figure out how to make this cooperate with the other styling on the actual venue page. Firstly, after a little searching, I figured out how to set the target of a tag in javascript which I tested and worked solving problem 1. Problem 2 and 3 tied into each other as they were four separate divs which I needed to place inside above div so I could add the class “row” to get the grid system to work.</p>
+<p>On top of that, the Javascript was targeting the body which was causing the page to break as it printed at the bottom of the document pushing the footer to just below the navigation bar. I wasn’t going to remove the footer as this would break the default layout, so I needed to figure out how to target an element. I read through the Javascript and realised I needed to change the query selector from the body and to something else, I chose a container as I haven’t used one of these on this page yet. </p>
+<p>I targeted the container added the container and javascript went into the container between the Navigation bar and a footer. I then added the row class to the container and all the javascript elements with their assigned classes started acting responsive as I wanted. After I finished that, and it was fully functional all that was left was styling. I added classes and another element which is a class “hr” then the JSON related stuff was completed.</p>
+
+<h2>Testing</h2>
+<hr>
+<h3>Jasmine Testing</h3>
+<p><b>For the Jasmine GitHub <a href="https://github.com/laurence100795/1975_Fan_Page_Jasmine">Click Here</a></b></p>
+<p><b>Jasmine testing is located on GitHub on Assets > Planning & Testing</b></p>
+<p>When I started the Jasmine testing, I went back to the videos to refresh my memory on the subject as I couldn’t remember completely how to do to it. When I went back to the videos it stated I needed to use the code institute template which I didn’t realise and haven’t used so I decided to avoid issues create a new GitHub with identical code copied ran off the new template. So I used the template and created a new GitHub the link to this will be in the resource links as well as under the title above. For some reason the published link doesn’t work and I’m assuming it’s trying to use port 3306 and that also didn’t work in GitPod I had to launch it on port 8000 for it to work, this is why I’ve only linked the GitHub link. I ran a couple of tests for Jasmine which were the following. </p>
+<h4>Test 1 – Slide Change Timer<h4>
+<p>The first test I did was on the change timer that was set 5 seconds (value 5000) so I did a few failure tests to make sure that the values are correct and you can see these and the code in the document. The test only passed on a value of 5000. </p>
+<h4>Test 2 – Scroll up to return point<h4>
+<p>The second was once the return point once the scroll up function was clicked it would return to the top of the page. I did this by checking two variables and if they both came up as 0 it would change the position of the page to pixels 0 positioned at the top. I also did a failure test a partial failure and a passing example. You can see this in the document inside the GitHub repository.</p>
+<h4>Jasmine Issues<h4>
+<p>I had a few issues testing with Jasmine which I will go to my mentor out and figure out where I was going wrong due to time restraints, I couldn’t do it beforehand. The first test I tried was checking the latitude and longitude in the Google maps API to see if they matched the correct ones that I found through an online calculator.  They were in an object for me to test and for some reason, I couldn’t pull the out to get tested. I looked it up online and I tested with different methods but they all came up flat in the end so I moved onto another test. I then tried testing the time when the scroll up function would appear by stating when variable “a” and variable “b” were at a certain point the element would change from 1 class to 2 classes. I couldn’t get this to work either I tried various methods using dummy elements, jasmine spies but it didn’t work either. If I had more time, I would have looked into this further but due to that issue, it is something I have noted down and plan to work on after this project so I can get better at using it.</p>
+
+<h3>User Testing</h3>
+<p><b>The user questionnaires are located on GitHub on: Assets > Planning & Testing</b></p>
+<p>I created a questionnaire for some user testing and sat down with some friends and family individually asked them to test the webpage. I provide them with the links via message and got them to test. All in all, I did 2 friends, 2 family members and 1 friend did it twice on his computer and his mobile. All the people I picked had different devices for testing for diversity which consisted of 2 androids 2 iPhones and 1 Laptop, I wanted a Mac to test but I couldn’t find anyone with one. To see the results of the documents please see the documentation located in the route at the top of the page. </p>
+<h4>Changes from User Testing</h4>
+<p>Two of the testers pointed out changes they fault would improve the website and make it more understandable and user-friendly. The first problem that was discovered was I forgot to change make the logo on the website a link to the homepage which is a standard in web development. Once this was pointed out I changed it and added this to all the web pages. The second change that needed to be done was on the venue page and the user I picked has eye strain issues and stated to me that one slide was too bright and could cause issues, also she stated it was so bright it made the readability for the page harder. I took this image out added a darker filter and asked her if this was better. On change, it was not a problem and was easier to read and understand.</p>
+<h4>User Testing Purpose</h4>
+<p>One reason I did this was for other people’s opinions on my website to see if they thought it was up to scratch requesting there brutal honest opinions on it. Overall, they liked it which is helpful as I struggle to see this and constantly wanting to change stuff as I’m never happy. I have always believed no one will ever judge you more than yourself and that applies to everything including my creations so getting commendation from people I trust helps me get past that. The second reason I did this was getting the opinions on it from someone that would view it as a customer. This gives me feedback and changes on what I have done and what would make their own user experience more enjoyable on the website.</p>
+<h3>Developer Testing</h3>
+<p>After I did the jasmine and user testing, I went through tests of my own to completely check everything was function correctly. First thing I did was proofread all the text as I’m dyslexic there is a high chance to be some spelling errors, grammar issues and text that doesn’t make sense. As expected, this was the case, so I went over it slowly and corrected all the errors I found on the pages. After this, I went over the pages to see if there were any final changes I wanted to do. I firstly added a hover effect and a cursor pointer effect to the scroller feature on the band information page.</p>
+<p>Next, I made all the titles on the pages have the same font size and weight as this looked cleaner and more professional. Once this was completed, I tested every page and their interactive features and links to see if it was producing the expected outcome. Email service wouldn’t send if boxes weren’t filled, would send when both filled with a valid email format, the page would refresh to wipe text when successful. You would receive an email confirming the email was sent as well as an email would be sent to the correct address via Email.js.</p>
+<p>Home page and venue page interactive backgrounds rotate and display all the correct images, personally believe after the suggested changes the images are no longer overpowering and sit well. </p>
+<p>Venue page populates all containers with the correct information comparing it to the selected objects in the Javascript file. The link works and opens in a separate tab taking you to Songkick’s website to the page relating to the JSON pulled information.</p>
+<p>The feature on the band page which takes you to the top appears when scrolling down the page. On click, it takes you to the top of the page, when at the top of the page it disappears on hover it highlights. I checked to see if the google map pulled through as it had a restriction on it which it did. I tested all these multiple times on different device screens via the Google developer tools to see if they worked as expected, see if the page breaks at any point to see if I can spot anything out of place. </p>
+<p>Once I did all this, I finally tested the code itself by putting it through the HTML and CSS validator. There were a few changes that needed to be made, First was not a change, but I forgot to add the “lang” tag to the first HTML tag, so I did that on every page. Next was I forgot to add most of the “alt” tags to images, so I went and added all of them to the images on the pages. The code failed when the scripts were run outside of the body so just to avoid the possibility of getting marked down for that I moved all scripting into the very bottom of the body. </p>
+<p>There were a couple of ending “divs” that I missed so I removed them and one or two single “script” tags also. The final issue required a little more thought and that was the validator didn’t like that I placed the “container” inside a “div” so I changed it to a div gave it an ID and set the javascript Query selector to target the that ID. This passed the test and didn’t change the venue page in any way. Once I completed this I was happy with the website for final submission.</p>
+
+<h3>Deployment</h3>
+<p>To deploy the website in its finished form I used the service that GitHub in the settings publishing the master branch of GitHub repository. I left it a while as I remember from last time it takes a few minutes to populate. While it did this I went to my google API and cleared the API restriction as it wouldn’t work on this website, waited for it to load and then added the new page to restriction settings. Then I went tested to them side by side with the browser preview in GitPod to see if there were any noticeable differences. </p>
+<p>As expected, the appeared identical (Apart from google API not loading on GitPod) to me which gave me confidence in the link for websites. I then handed out the link for the user testing and got it tested on 5 other devices which came back with a positive response. I also used social media to pass the link onto some friends and family but didn’t make them do the form as I believed 5 was enough and they all stated they couldn’t find anything broken or weird with the website. From this, I concluded that the site was successfully deployed and live to view.</p>
+
+<h3>Project Final Thoughts</h3>
+<p>I have had a lot of fun, joy, pain, frustration and relief with this section. I have enjoyed the challenge of being in the deep end with a language completely different and very complex compared to the previous ones I’ve used. I know that I need more practice with Javascript which I plan on continuing with later either while or after the python section. I disliked it to start with but the more I used it, the more I looked into it the better I understood it and could use it. </p>
+<p>All the possibilities with this language are incredible which motivates me to master it so I can create incredible functionality and interactive features with this language in the future. This section gave me a great understating of the language but at some points, I have trouble writing it even though I can understand and read how other functions work. But as I’ve been told by other people, my mentor, tutors and student support you need to practise and experiment with the language to hone and develop those skills so that’s what I plan to do by building small functioning features and work my way up.</p>
+<p></p>
+<p></p>

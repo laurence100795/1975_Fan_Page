@@ -1,3 +1,4 @@
+/*----Srcoller Appear----*/
 window.onscroll = function() {ScrollFunction()};
 
 function ScrollFunction() {
@@ -7,12 +8,12 @@ function ScrollFunction() {
     document.getElementById("Scroller").className = "TopScroller";
   }
 }
-
+/*----Srcoller Position Change----*/
 function TakeToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
+/*----Google Maps API----*/
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 13,

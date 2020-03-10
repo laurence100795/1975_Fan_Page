@@ -326,6 +326,8 @@ footer { /*Pushes footer to the bottom of the page*/
     color:white;
     letter-spacing: 2px;
     padding-top: 15px;
+    font-size: 48px;
+    font-weight: 400;
 
 }
 
@@ -384,6 +386,9 @@ footer { /*Pushes footer to the bottom of the page*/
 /*----Home Body media Queries----*/
 
 @media(max-width:767px) { /*adjusts home page values at a width of 767px*/
+    .HomeTitle {
+        font-size: 30px;
+    }
     .BottomHomeContainer1{
         margin-bottom:0;
     }
@@ -401,7 +406,8 @@ footer { /*Pushes footer to the bottom of the page*/
 .ReportTitle { /*Reporting Page title Styling*/
     padding-top: 40px;
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: 400;
     text-align: center;
     color: black;
 }
@@ -409,7 +415,7 @@ footer { /*Pushes footer to the bottom of the page*/
 .ReportPara { /*Reporting Page subtext Styling*/
     padding-top: 40px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     color: black;
 }
@@ -443,6 +449,13 @@ form button {
     color: #fafafa;
     background-color: black;
 }
+/*----Report Page Media Queries----*/
+
+@media(max-width:767px) {
+    .ReportTitle{
+        font-size: 30px;
+    }
+}
 
 /*----Merch Body----*/
 .MerchContent{ /*Merch page background and text default colours*/
@@ -462,13 +475,15 @@ form button {
 
 .AlbumCallout h2 { /*Album Callout h2 styling*/
     font-weight: 400;
-    font-size: 36px;
+    font-size: 48px;
     letter-spacing: 2px;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .AlbumCallout p { /*Album Callout p styling*/
     font-weight: 400;
+    font-size: 20px;
 }
 
 .AlbumTopper h2 { /*Album topper h2 styling*/
@@ -536,6 +551,10 @@ form button {
 /*----Merch Media Queries----*/
 
 @media(max-width:767px) { /*adjusts merch page values at a width of 767px*/
+    .AlbumCallout h2{
+        font-size: 30px;
+    }
+    
     .AlbumTopper {
         display: none;
     }
@@ -578,13 +597,13 @@ form button {
 }
 
 .BandCalloutHead { /*Band Callout title text styling*/
-    font-size: 36px;
-    font-weight: 200;
+    font-size: 48px;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
 .BandCalloutPara { /*Band Callout p tag text styling*/
-    font-size: 22px;
+    font-size: 20px;
     padding: 20px 0;
 }
 
@@ -660,6 +679,8 @@ form button {
 
 .fa-chevron-circle-up{ /*Band page top scroller colour*/
     color:#fafafa96;
+    transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 .TopScroller { /*Band page top scroller positioning*/
@@ -678,6 +699,14 @@ form button {
 @keyframes ScrollerAppear { /*Band page top scroller appear animation specifications*/
   from {right: -100px;}
   to {right: 50px;}
+}
+
+/*----Band Page effects----*/
+
+.fa-chevron-circle-up:hover,
+.fa-chevron-circle-up:focus,
+.fa-chevron-circle-up:active {
+    color: #fafafa
 }
 
 /*----Band Page Media Queries----*/
@@ -707,6 +736,9 @@ form button {
 }
 
 @media(max-width:767px) { /*adjusts band page values at a width of 767px*/
+    .BandCalloutHead {
+        font-size: 30px;
+    }
     .fa-4x {
         font-size: 1.5em;
     }
@@ -724,7 +756,9 @@ form button {
     .BandMemberContainer p{
         font-size: 14px;
     }
-
+    .fa-chevron-circle-up:hover {
+        color: #fafafa96;
+    }
 }
 
 @media(max-width:400px) {
@@ -764,6 +798,9 @@ form button {
     font-size: 48px;
 }
 
+.VenueCallout h3 {
+    font-size: 20px;
+}
 
 .VenueCallout div div { /*Venue callout inner styling*/
     margin:0 20%;
